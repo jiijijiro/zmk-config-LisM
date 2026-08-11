@@ -3,7 +3,7 @@ name: Release (ZMK reusable workflow)
 on:
   push:
     tags:
-      - "v*"   # 例: v1.0.0
+      - "v*-dya"   # 例: v1.0.0-dya
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ jobs:
     name: Build via ZMK reusable workflow
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
     with:
-      archive_name: firmware
+      archive_name: firmware-dya
     secrets: inherit
 
   release:
@@ -36,7 +36,7 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
-          name: firmware
+          name: firmware-dya
           path: dist
 
       - name: Create a single ZIP archive from artifacts
@@ -45,7 +45,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y zip
           # 1ファイルにまとめる（既存ZIPがあれば上書き）
-          zip -r firmware.zip .
+          zip -r firmware-dya.zip .
   
       - name: Create GitHub Release and attach assets
         uses: softprops/action-gh-release@v2
