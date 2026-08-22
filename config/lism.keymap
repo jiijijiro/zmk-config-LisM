@@ -64,7 +64,7 @@
         us_se: us_se {
             compatible = "zmk,behavior-mod-morph";
             label = "US_SE";
-            bindings = <&kp SEMI>, <&kp APOS>;
+            bindings = <&kp APOS>, <&kp SEMI>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -73,7 +73,7 @@
         us_ap: us_ap {
             compatible = "zmk,behavior-mod-morph";
             label = "US_AP";
-            bindings = <&kp LS(N7)>, <&kp LS(N2)>;
+            bindings = <&kp LS(N2)>, <&kp LS(N7)>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -531,12 +531,12 @@
         };
 
         combo08 {
-            bindings = <&us_se>;
+            bindings = <&us_ap>;
             key-positions = <16 17>;
         };
 
         combo09 {
-            bindings = <&us_ap>;
+            bindings = <&us_se>;
             key-positions = <17 18>;
         };
 
@@ -558,6 +558,11 @@
         combo13 {
             bindings = <&kp SLASH>;
             key-positions = <28 29>;
+        };
+
+        combo14 {
+            bindings = <&kp LANG1>;
+            key-positions = <36 37>;
         };
     };
 
