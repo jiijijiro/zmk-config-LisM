@@ -115,7 +115,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD04";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&us_min>, <&kp LS(EQUAL)>;
+
             tapping-term-ms = <300>;
         };
 
@@ -503,6 +504,16 @@
             bindings = <&mo 3>;
             key-positions = <20 21>;
         };
+
+        combo03 {
+            bindings = <&kp LANG2>;
+            key-positions = <34 35>;
+        };
+
+        combo04 {
+            bindings = <&us_bq>;
+            key-positions = <5 6>;
+        };
     };
 
     keymap {
@@ -512,10 +523,12 @@
             bindings = <
 &lt 3 Q      &lt 2 W  &lt 1 E         &kp R           &kp T                                      &trans           &kp Y   &kp U   &kp I   &lt 3 O
 &kp A        &kp S    &kp D           &kp F           &kp G                                      &trans           &kp H   &kp J   &kp K   &kp P
-&mt LSHFT Z  &kp X    &kp C           &kp V           &kp B                                      &TD03            &TD04   &kp N   &kp M   &mt RSHFT L
+&mt LSHFT Z  &kp X    &kp C           &kp V           &kp B                                      &us_eq           &TD04   &kp N   &kp M   &mt RSHFT L
 &trans       &trans   &trans          &mmv MOVE_UP    &lt 2 ENTER      &lt 1 SPACE    &lt 1 TAB  &lt 2 BACKSPACE  &trans  &trans  &trans  &trans
                       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                            &trans           &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp LEFT RIGHT>;
         };
 
         layer_1 {
@@ -526,6 +539,8 @@
 &trans  &trans     &trans        &kp C_VOL_UP  &kp ENTER          &kp SPACE    &kp TAB  &kp BACKSPACE  &trans  &trans  &trans  &trans
                    &kp C_BRI_DN  &kp C_VOL_DN  &kt C_BRI_UP                             &trans         &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
         };
 
         layer_2 {
@@ -536,6 +551,8 @@
 &trans   &trans   &trans           &kp UP    &trans     &trans    &trans  &trans    &trans    &trans    &trans     &trans
                   &kp LEFT         &kp DOWN  &kp RIGHT                    &trans    &trans    &trans
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_3 {
@@ -546,6 +563,8 @@
 &trans        &trans        &trans          &msc SCRL_UP    &trans           &kp LA(F4)    &trans  &trans  &trans  &trans  &trans  &trans
                             &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                        &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp UP DOWN>;
         };
     };
 };
