@@ -656,6 +656,30 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <19 29>;
         };
+
+        combo31 {
+            bindings = <&bootloader>;
+            key-positions = <20 30>;
+            layers = <3>;
+        };
+
+        combo32 {
+            bindings = <&bootloader>;
+            key-positions = <29 41>;
+            layers = <3>;
+        };
+
+        combo33 {
+            bindings = <&bt BT_CLR>;
+            key-positions = <41 40>;
+            layers = <3>;
+        };
+
+        combo34 {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <41 40 39>;
+            layers = <3>;
+        };
     };
 
     keymap {
