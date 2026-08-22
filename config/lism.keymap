@@ -687,7 +687,7 @@
 
         layer_0 {
             bindings = <
-&lt 3 Q      &lt 2 W      &lt 1 E         &kp R           &kp T                                      &trans           &kp Y       &kp U        &kp I       &lt 3 O
+&lt 3 Q      &lt 2 W      &lt 1 E         &kp R           &kp T                                      &trans           &kp Y       &lt 1 U      &lt 2 I     &lt 3 O
 &kp A        &mt LSHFT S  &mt LALT D      &mt LCTRL F     &mt LGUI G                                 &trans           &mt RGUI H  &mt RCTRL J  &mt RALT K  &mt RSHFT P
 &mt LSHFT Z  &lt 3 X      &kp C           &kp V           &kp B                                      &TD03            &TD04       &kp N        &kp M       &mt RSHFT L
 &trans       &trans       &trans          &mmv MOVE_UP    &lt 2 ENTER      &lt 1 SPACE    &lt 1 TAB  &lt 2 BACKSPACE  &trans      &trans       &trans      &trans
