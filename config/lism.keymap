@@ -148,7 +148,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD08";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp KP_PLUS>, <&kp KP_ASTERISK>;
+
             tapping-term-ms = <300>;
         };
 
@@ -156,7 +157,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD09";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp KP_MINUS>, <&kp KP_SLASH>;
+
             tapping-term-ms = <300>;
         };
 
