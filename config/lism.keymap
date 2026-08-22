@@ -107,7 +107,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD03";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&us_eq>, <&kp LS(APOS)>;
+
             tapping-term-ms = <300>;
         };
 
@@ -664,7 +665,7 @@
             bindings = <
 &lt 3 Q      &lt 2 W  &lt 1 E         &kp R           &kp T                                      &trans           &kp Y   &kp U   &kp I   &lt 3 O
 &kp A        &kp S    &kp D           &kp F           &kp G                                      &trans           &kp H   &kp J   &kp K   &kp P
-&mt LSHFT Z  &kp X    &kp C           &kp V           &kp B                                      &us_eq           &TD04   &kp N   &kp M   &mt RSHFT L
+&mt LSHFT Z  &kp X    &kp C           &kp V           &kp B                                      &TD03            &TD04   &kp N   &kp M   &mt RSHFT L
 &trans       &trans   &trans          &mmv MOVE_UP    &lt 2 ENTER      &lt 1 SPACE    &lt 1 TAB  &lt 2 BACKSPACE  &trans  &trans  &trans  &trans
                       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                            &trans           &trans  &trans
             >;
