@@ -196,7 +196,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD14";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mc05>, <&mc06>;
+
             tapping-term-ms = <300>;
         };
 
@@ -204,7 +205,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD15";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(A)>, <&mc09>;
+
             tapping-term-ms = <300>;
         };
 
@@ -212,7 +214,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD16";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(S)>, <&mc10>;
+
             tapping-term-ms = <300>;
         };
 
@@ -220,7 +223,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD17";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&none>, <&mc11>;
+
             tapping-term-ms = <300>;
         };
 
@@ -228,7 +232,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD18";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(PAGE_UP)>, <&mc07>;
+
             tapping-term-ms = <300>;
         };
 
@@ -244,7 +249,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD20";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt LC(LSHFT) LC(Z)>, <&kp LC(N1)>;
+
             tapping-term-ms = <300>;
         };
 
@@ -268,7 +274,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD23";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(V)>, <&mc08>;
+
             tapping-term-ms = <300>;
         };
 
