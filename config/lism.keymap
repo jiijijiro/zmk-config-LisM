@@ -2,7 +2,9 @@
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
@@ -484,24 +486,43 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo00 {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        combo01 {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+        };
+
+        combo02 {
+            bindings = <&none>;
+            key-positions = <20 21>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         layer_0 {
             bindings = <
-&lt 3 Q  &kp W   &kp E           &kp R           &kp T                              &trans  &kp Y   &kp U   &kp I   &kp O
-&kp A    &kp S   &kp D           &kp F           &kp G                              &trans  &kp H   &kp J   &kp K   &kp P
-&kp Z    &kp X   &kp C           &kp V           &kp B                              &trans  &trans  &kp N   &kp M   &kp L
-&trans   &trans  &trans          &mmv MOVE_UP    &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                 &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                    &trans  &trans  &trans
+&lt 3 Q  &kp W   &kp E           &kp R           &kp T                                      &trans           &kp Y   &kp U   &kp I   &kp O
+&kp A    &kp S   &kp D           &kp F           &kp G                                      &trans           &kp H   &kp J   &kp K   &kp P
+&kp Z    &kp X   &kp C           &kp V           &kp B                                      &TD03            &TD04   &kp N   &kp M   &kp L
+&trans   &trans  &trans          &mmv MOVE_UP    &lt 2 ENTER      &lt 1 SPACE    &lt 1 TAB  &lt 2 BACKSPACE  &trans  &trans  &trans  &trans
+                 &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                            &trans           &trans  &trans
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &kp N7  &kp N8  &kp N9  &kp N0
+&trans  &trans  &trans  &trans  &trans                    &trans  &kp N4  &kp N5  &kp N6  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &kp N1  &kp N2  &kp N3  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans                    &trans  &trans  &trans
             >;
@@ -509,21 +530,21 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans                    &trans  &trans  &trans
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                     &trans    &trans    &kp UP    &trans     &trans
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10                    &kp LEFT  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&kp F11  &kp F12  &trans  &trans  &trans                     &trans    &trans    &trans    &trans     &trans
+&trans   &trans   &trans  &trans  &trans   &trans    &trans  &trans    &trans    &trans    &trans     &trans
+                  &trans  &trans  &trans                     &trans    &trans    &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans          &trans          &trans                             &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans          &trans                             &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans          &trans                             &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &msc SCRL_UP    &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                    &trans  &trans  &trans
+&out OUT_USB  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3                           &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans          &trans          &trans                                 &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans          &trans          &trans                                 &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans          &msc SCRL_UP    &trans           &kp LA(F4)    &trans  &trans  &trans  &trans  &trans  &trans
+                            &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                        &trans  &trans  &trans
             >;
         };
     };
