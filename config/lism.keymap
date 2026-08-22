@@ -686,11 +686,11 @@
 
         layer_2 {
             bindings = <
-&kp F1   &kp F2   &kp F3    &kp F4    &kp F5                                         &trans    &trans    &kp UP    &trans     &trans
-&kp F6   &kp F7   &kp F8    &kp F9    &kp F10                                        &kp LEFT  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&kp F11  &kp F12  &TD28     &TD29     &kp PRINTSCREEN                                &trans    &trans    &trans    &trans     &trans
-&trans   &trans   &trans    &kp UP    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))    &trans  &trans    &trans    &trans    &trans     &trans
-                  &kp LEFT  &kp DOWN  &kp RIGHT                                      &trans    &trans    &trans
+&mt LA(LC(TAB)) F1  &kp F2   &kp F3    &kp F4    &kp F5                                              &kp LC(T)         &kp LS(LC(TAB))  &kp UP    &kp LC(TAB)  &mt LS(F5) LC(W)
+&kp F6              &kp F7   &kp F8    &kp F9    &kp F10                                             &kp LA(LEFT)      &kp LEFT         &kp DOWN  &kp RIGHT    &trans
+&kp F11             &kp F12  &TD28     &TD29     &mt LG(P) PRINTSCREEN                               &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &trans    &trans       &trans
+&trans              &trans   &trans    &kp UP    &kp LS(LG(LEFT))       &kp LS(LG(RIGHT))    &trans  &trans            &trans           &trans    &trans       &trans
+                             &kp LEFT  &kp DOWN  &kp RIGHT                                           &trans            &trans           &trans
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
