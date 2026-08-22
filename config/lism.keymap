@@ -37,7 +37,7 @@
         us_bq: us_bq {
             compatible = "zmk,behavior-mod-morph";
             label = "US_BQ";
-            bindings = <&kp LS(RIGHT_BRACKET)>, <&kp LS(EQUAL)>;
+            bindings = <&kp LS(LEFT_BRACKET)>, <&kp LS(EQUAL)>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
