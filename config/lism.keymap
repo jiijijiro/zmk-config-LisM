@@ -2,7 +2,9 @@
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
@@ -331,6 +333,43 @@
             #binding-cells = <0>;
             bindings = <&none>;
             tapping-term-ms = <300>;
+        };
+    };
+
+    macros {
+        mc0: mc0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 0 &mo 0>;
+            label = "MC0";
+        };
+
+        mc1: mc1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 1 &mo 0>;
+            label = "MC1";
+        };
+
+        mc2: mc2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 2 &mo 0>;
+            label = "MC2";
+        };
+
+        mc3: mc3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 3 &mo 0>;
+            label = "MC3";
+        };
+
+        mc4: mc4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 4 &mo 0>;
+            label = "MC4";
         };
     };
 
