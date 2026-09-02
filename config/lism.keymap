@@ -370,6 +370,23 @@
             bindings = <&bt BT_SEL 4 &mo 0>;
             label = "MC4";
         };
+
+        mc00: mc00 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG1 &kp LS(N8) &kp LS(N9) &kp LEFT>;
+            label = "MC00";
+        };
+
+        mc01: mc01 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_pause_for_release>,
+                <&kp LANG2 &kp N1 &kp LC(ENTER)>;
+
+            label = "MC01";
+        };
     };
 
     keymap {
