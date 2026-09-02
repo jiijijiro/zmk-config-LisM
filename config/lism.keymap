@@ -418,11 +418,21 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp HOME   &kp END    &kp N7  &kp N8  &kp N9
-&kp A   &kp S   &trans  &trans  &trans                      &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
-&kp Z   &kp X   &kp C   &kp V   &kp B                       &trans     &kp N0     &kp N1  &kp N2  &kp N3
-&trans  &trans  &trans  &trans  &trans  &trans    &kp BSPC  &trans     &trans     &trans  &trans  &trans
-                &trans  &trans  &trans                      &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans                            &kp HOME   &kp END    &kp N7  &kp N8  &kp N9
+&kp A   &kp S   &trans  &trans  &trans                            &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
+&kp Z   &kp X   &kp C   &kp V   &kp B                             &trans     &kp N0     &kp N1  &kp N2  &kp N3
+&trans  &trans  &trans  &trans  &kp LANG1  &kp SPACE    &kp BSPC  &kp LANG2  &trans     &trans  &trans  &trans
+                &trans  &trans  &trans                            &trans     &trans     &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                     &kp T   &kp TAB   &kp UP    &kp TAB    &kp W
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10                    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp F3
+&kp F11  &kp F12  &trans  &trans  &trans                     &trans  &trans    &trans    &trans     &trans
+&trans   &trans   &trans  &trans  &trans   &trans    &trans  &trans  &trans    &trans    &trans     &trans
+                  &trans  &trans  &trans                     &trans  &trans    &trans
             >;
         };
     };
