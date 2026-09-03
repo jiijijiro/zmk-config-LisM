@@ -542,11 +542,11 @@
 
         layer_5 {
             bindings = <
-&trans  &kp F1  &kp F2          &kp F3          &kp F4                             &kp T         &kp TAB      &kp UP    &kp TAB    &kp W
-&trans  &kp F5  &kp F6          &kp F7          &kp F8                             &kp LEFT      &kp LEFT     &kp DOWN  &kp RIGHT  &kp F3
-&trans  &kp F9  &kp F10         &kp F11         &kp F12                            &kp KP_MINUS  &kp KP_PLUS  &kp F11   &trans     &trans
-&trans  &trans  &trans          &msc SCRL_UP    &trans           &trans    &trans  &trans        &trans       &trans    &trans     &trans
-                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                    &trans        &trans       &trans
+&kt ESC   &kp F1  &kp F2          &kp F3          &kp F4                             &kp T         &kp TAB      &kp UP    &kp TAB    &kp W
+&kp CAPS  &kp F5  &kp F6          &kp F7          &kp F8                             &kp LEFT      &kp LEFT     &kp DOWN  &kp RIGHT  &kp F3
+&trans    &kp F9  &kp F10         &kp F11         &kp F12                            &kp KP_MINUS  &kp KP_PLUS  &kp F11   &trans     &trans
+&trans    &trans  &trans          &msc SCRL_UP    &trans           &trans    &trans  &trans        &trans       &trans    &trans     &trans
+                  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                    &trans        &trans       &trans
             >;
         };
 
