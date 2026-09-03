@@ -354,7 +354,7 @@
         mc2: mc2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&out OUT_BLE &bt BT_SEL 2 &mo 0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 2 &mo 3>;
             label = "MC2";
         };
 
@@ -552,11 +552,11 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans        &trans        &trans                      &trans  &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
-&trans  &trans  &trans        &trans        &trans                      &trans  &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
-&trans  &trans  &trans        &trans        &trans                      &TD08   &TD09   &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
-&trans  &trans  &trans        &kp C_VOL_UP  &mc1          &mc0    &mc0  &mc1    &trans  &trans      &trans            &trans
-                &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                &trans  &trans  &trans
+&trans  &trans  &trans        &mc2          &mc3                        &mc3    &mc2          &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&trans  &trans  &trans        &out OUT_USB  &mc4                        &mc4    &out OUT_USB  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&trans  &trans  &trans        &trans        &trans                      &TD08   &TD09         &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&trans  &trans  &trans        &kp C_VOL_UP  &mc1          &mc0    &mc0  &mc1    &trans        &trans      &trans            &trans
+                &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                &trans  &trans        &trans
             >;
         };
     };
