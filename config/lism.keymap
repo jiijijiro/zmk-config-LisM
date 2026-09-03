@@ -550,11 +550,11 @@
 
         layer_1 {
             bindings = <
-&mc05   &mc01      &mc02           &mc03           &TD14                                                 &kp HOME   &kp END    &kp N7  &kp N8  &lt 2 N9
-&TD15   &TD16      &TD17           &TD18           &mt LCTRL LC(PAGE_DOWN)                               &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
-&TD20   &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                             &TD08      &kp N0     &kp N1  &kp N2  &kp N3
-&trans  &trans     &trans          &mmv MOVE_UP    &kp LG(L)                &kp LA(F4)    &kp BACKSPACE  &kp LANG2  &trans     &trans  &trans  &trans
-                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                       &trans     &trans     &trans
+&mc05   &mc01      &mc02           &mc03           &TD14                                                 &kp HOME   &kp END            &kp N7       &kp N8       &lt 2 N9
+&TD15   &TD16      &TD17           &TD18           &mt LCTRL LC(PAGE_DOWN)                               &kp PG_UP  &mt RCTRL PAGE_UP  &mt RGUI N4  &mt RALT N5  &kp N6
+&TD20   &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                             &TD08      &kp N0             &kp N1       &kp N2       &mt RSHFT N3
+&trans  &trans     &trans          &mmv MOVE_UP    &kp LG(L)                &kp LA(F4)    &kp BACKSPACE  &kp LANG2  &trans             &trans       &trans       &trans
+                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                       &trans     &trans             &trans
             >;
         };
 
