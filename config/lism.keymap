@@ -512,11 +512,11 @@
 
         layer_2 {
             bindings = <
-&kp ESC          &kp F1  &kp F2          &kp F3          &kp F4                             &kp LC(T)         &kp LS(LC(TAB))  &kp UP    &kp LC(TAB)  &mt LS(F5) LC(W)
-&kp CAPS         &kp F5  &kp F6          &kp F7          &kp F8                             &kp LA(LEFT)      &kp LEFT         &kp DOWN  &kp RIGHT    &kp F3
-&kp PRINTSCREEN  &kp F9  &kp F10         &kp F11         &kp F12                            &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp F11   &trans       &trans
-&trans           &trans  &trans          &msc SCRL_UP    &trans           &trans    &trans  &trans            &trans           &trans    &trans       &trans
-                         &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                    &trans            &trans           &trans
+&kp ESC                &kp F1  &kp F2          &kp F3          &kp F4                                      &kp LC(T)          &kp LS(LC(TAB))  &kp UP    &kp LC(TAB)  &mt LS(F5) LC(W)
+&kp CAPS               &kp F5  &kp F6          &kp F7          &kp F8                                      &kp LA(LEFT)       &kp LEFT         &kp DOWN  &kp RIGHT    &kp F3
+&mt LG(P) PRINTSCREEN  &kp F9  &kp F10         &kp F11         &kp F12                                     &kp LC(KP_MINUS)   &kp LC(KP_PLUS)  &kp F11   &trans       &trans
+&trans                 &trans  &trans          &msc SCRL_UP    &TD28            &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans           &trans    &trans       &trans
+                               &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                             &trans             &trans           &trans
             >;
         };
 
