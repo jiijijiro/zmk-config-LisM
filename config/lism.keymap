@@ -502,11 +502,11 @@
 
         layer_1 {
             bindings = <
-&TD10   &mc01      &mc02           &mc03           &TD14                                    &kp HOME   &kp END    &kp N7  &kp N8  &lt 2 N9
-&TD15   &TD16      &TD17           &TD18           &kp LC(PAGE_DOWN)                        &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
-&TD20   &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                &TD08      &kp N0     &kp N1  &kp N2  &kp N3
-&trans  &trans     &trans          &mmv MOVE_UP    &kp LG(L)          &kp LA(F4)    &trans  &trans     &trans     &trans  &trans  &trans
-                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                          &trans     &trans     &trans
+&TD10   &mc01      &mc02           &mc03           &TD14                                           &kp HOME   &kp END    &kp N7  &kp N8  &lt 2 N9
+&TD15   &TD16      &TD17           &TD18           &kp LC(PAGE_DOWN)                               &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
+&TD20   &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                       &TD08      &kp N0     &kp N1  &kp N2  &kp N3
+&trans  &trans     &trans          &mmv MOVE_UP    &kp LG(L)          &kp LA(F4)    &kp BACKSPACE  &trans     &trans     &trans  &trans  &trans
+                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                 &trans     &trans     &trans
             >;
         };
 
@@ -532,11 +532,11 @@
 
         layer_4 {
             bindings = <
-&trans     &trans     &trans          &trans          &trans                                &kp HOME   &kp END    &kp N7  &kp N8  &lt 5 N9
-&kp LG(A)  &kp LG(S)  &trans          &trans          &trans                                &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
-&kp LG(Z)  &kp LG(X)  &kp LG(C)       &kp LG(V)       &kp LG(B)                             &TD08      &kp N0     &kp N1  &kp N2  &kp N3
-&trans     &trans     &trans          &mmv MOVE_UP    &kp LG(LC(Q))    &kp LG(H)    &trans  &trans     &trans     &trans  &trans  &trans
-                      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                       &trans     &trans     &trans
+&trans     &trans     &trans          &trans          &trans                                       &kp HOME   &kp END    &kp N7  &kp N8  &lt 5 N9
+&kp LG(A)  &kp LG(S)  &trans          &trans          &trans                                       &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
+&kp LG(Z)  &kp LG(X)  &kp LG(C)       &kp LG(V)       &kp LG(B)                                    &TD08      &kp N0     &kp N1  &kp N2  &kp N3
+&trans     &trans     &trans          &mmv MOVE_UP    &kp LG(LC(Q))    &kp LG(H)    &kp BACKSPACE  &trans     &trans     &trans  &trans  &trans
+                      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                              &trans     &trans     &trans
             >;
         };
 
