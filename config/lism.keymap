@@ -529,7 +529,7 @@
 
         layer_1 {
             bindings = <
-&TD10   &mc01      &mc02           &mc03           &TD14                                           &kp HOME   &kp END    &kp N7  &kp N8  &lt 2 N9
+&TD10   &mc01      &mc02           &mc04           &TD14                                           &kp HOME   &kp END    &kp N7  &kp N8  &lt 2 N9
 &TD15   &TD16      &TD17           &TD18           &kp LC(PAGE_DOWN)                               &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
 &TD20   &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                       &TD08      &kp N0     &kp N1  &kp N2  &kp N3
 &trans  &trans     &trans          &mmv MOVE_UP    &kp LG(L)          &kp LA(F4)    &kp BACKSPACE  &kp LANG2  &trans     &trans  &trans  &trans
@@ -539,8 +539,8 @@
 
         layer_2 {
             bindings = <
-&kp ESC                &kp F1  &kp F2          &kp F3          &kp F4                                      &kp LC(T)          &kp LS(LC(TAB))  &kp UP    &kp LC(TAB)  &mt LS(F5) LC(W)
-&kp CAPS               &kp F5  &kp F6          &kp F7          &kp F8                                      &kp LA(LEFT)       &kp LEFT         &kp DOWN  &kp RIGHT    &kp F3
+&trans                 &kp F1  &kp F2          &kp F3          &kp F4                                      &kp LC(T)          &kp LS(LC(TAB))  &kp UP    &kp LC(TAB)  &mt LS(F5) LC(W)
+&trans                 &kp F5  &kp F6          &kp F7          &kp F8                                      &kp LA(LEFT)       &kp LEFT         &kp DOWN  &kp RIGHT    &kp F3
 &mt LG(P) PRINTSCREEN  &kp F9  &kp F10         &kp F11         &kp F12                                     &kp LC(KP_MINUS)   &kp LC(KP_PLUS)  &kp F11   &trans       &trans
 &trans                 &trans  &trans          &msc SCRL_UP    &TD28            &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans           &trans    &trans       &trans
                                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                             &trans             &trans           &trans
@@ -559,7 +559,7 @@
 
         layer_4 {
             bindings = <
-&iOS_00    &trans     &trans          &trans          &trans                                       &kp HOME   &kp END    &kp N7  &kp N8  &lt 5 N9
+&trans     &trans     &trans          &trans          &trans                                       &kp HOME   &kp END    &kp N7  &kp N8  &lt 5 N9
 &kp LG(A)  &kp LG(S)  &trans          &trans          &trans                                       &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
 &kp LG(Z)  &kp LG(X)  &kp LG(C)       &kp LG(V)       &kp LG(B)                                    &TD08      &kp N0     &kp N1  &kp N2  &kp N3
 &trans     &trans     &trans          &mmv MOVE_UP    &kp LG(LC(Q))    &kp LG(H)    &kp BACKSPACE  &kp LANG2  &trans     &trans  &trans  &trans
@@ -569,8 +569,8 @@
 
         layer_5 {
             bindings = <
-&kt ESC                    &kp F1  &kp F2          &kp F3          &kp F4                                    &kp LG(T)              &kp LC(LS(TAB))  &kp UP    &kp LC(TAB)  &mt LG(R) LG(W)
-&kp CAPS                   &kp F5  &kp F6          &kp F7          &kp F8                                    &kp LG(RIGHT_BRACKET)  &kp LEFT         &kp DOWN  &kp RIGHT    &kp F3
+&trans                     &kp F1  &kp F2          &kp F3          &kp F4                                    &kp LG(T)              &kp LC(LS(TAB))  &kp UP    &kp LC(TAB)  &mt LG(R) LG(W)
+&trans                     &kp F5  &kp F6          &kp F7          &kp F8                                    &kp LG(RIGHT_BRACKET)  &kp LEFT         &kp DOWN  &kp RIGHT    &kp F3
 &mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10         &kp F11         &kp F12                                   &kp LG(KP_MINUS)       &kp LG(KP_PLUS)  &trans    &trans       &trans
 &trans                     &trans  &trans          &msc SCRL_UP    &iOS_01          &iOS_02    &kp LG(LEFT)  &kp LG(RIGHT)          &trans           &trans    &trans       &trans
                                    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                           &trans                 &trans           &trans
