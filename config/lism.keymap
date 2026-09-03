@@ -535,6 +535,95 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo00 {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        combo01 {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+        };
+
+        combo02 {
+            bindings = <&kp CAPS>;
+            key-positions = <20 21>;
+        };
+
+        combo03 {
+            bindings = <&kp ENTER>;
+            key-positions = <34 35>;
+        };
+
+        combo04 {
+            bindings = <&none>;
+            key-positions = <5 6>;
+        };
+
+        combo05 {
+            bindings = <&us_bq>;
+            key-positions = <6 7>;
+        };
+
+        combo06 {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <7 8>;
+        };
+
+        combo07 {
+            bindings = <&kp NON_US_HASH>;
+            key-positions = <8 9>;
+        };
+
+        combo08 {
+            bindings = <&mc00>;
+            key-positions = <15 16>;
+        };
+
+        combo09 {
+            bindings = <&kp INT3>;
+            key-positions = <16 17>;
+        };
+
+        combo10 {
+            bindings = <&us_ap>;
+            key-positions = <17 18>;
+        };
+
+        combo11 {
+            bindings = <&us_se>;
+            key-positions = <18 19>;
+        };
+
+        combo12 {
+            bindings = <&kp KP_MINUS>;
+            key-positions = <25 26>;
+        };
+
+        combo13 {
+            bindings = <&kp SLASH>;
+            key-positions = <26 27>;
+        };
+
+        combo14 {
+            bindings = <&kp COMMA>;
+            key-positions = <27 28>;
+        };
+
+        combo15 {
+            bindings = <&kp DOT>;
+            key-positions = <28 29>;
+        };
+
+        combo16 {
+            bindings = <&kp TAB>;
+            key-positions = <36 37>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
