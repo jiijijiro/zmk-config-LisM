@@ -500,7 +500,7 @@
         iOS_01: iOS_01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp GLOBE &kp LEFT>, <&macro_release>;
+            bindings = <&macro_press>, <&kp GLOBE &kp C>, <&macro_release>;
 
             label = "IOS_01";
         };
@@ -508,9 +508,17 @@
         iOS_02: iOS_02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp GLOBE &kp RIGHT>, <&macro_release>;
+            bindings = <&macro_press>, <&kp GLOBE &kp LEFT>, <&macro_release>;
 
             label = "IOS_02";
+        };
+
+        iOS_03: iOS_03 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&kp GLOBE &kp RIGHT>, <&macro_release>;
+
+            label = "IOS_03";
         };
     };
 
@@ -520,7 +528,7 @@
         layer_0 {
             bindings = <
 &lt 2 Q      &lt 1 W  &lt 6 E     &kp R       &kp T                                        &trans       &kp Y        &lt 6 U     &lt 1 I     &lt 2 O
-&lt 1 A      &kp S    &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &trans       &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P
+&lt 1 A      &lt 2 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &trans       &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P
 &mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &TD03        &TD04        &kp N       &lt 6 L     &mt RSHFT L
 &trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 2 BACKSPACE  &lt 1 LANG1  &trans       &trans      &trans      &trans
                       &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans       &trans
@@ -539,8 +547,8 @@
 
         layer_2 {
             bindings = <
-&trans                 &kp F1  &kp F2          &kp F3          &kp F4                                      &kp LC(T)          &kp LS(LC(TAB))  &kp UP    &kp LC(TAB)  &mt LS(F5) LC(W)
-&trans                 &kp F5  &kp F6          &kp F7          &kp F8                                      &kp LA(LEFT)       &kp LEFT         &kp DOWN  &kp RIGHT    &kp F3
+&kp LA(LC(TAB))        &kp F1  &kp F2          &kp F3          &kp F4                                      &kp LC(T)          &kp LS(LC(TAB))  &kp UP    &kp LC(TAB)  &mt LS(F5) LC(W)
+&kp LG(T)              &kp F5  &kp F6          &kp F7          &kp F8                                      &kp LA(LEFT)       &kp LEFT         &kp DOWN  &kp RIGHT    &kp F3
 &mt LG(P) PRINTSCREEN  &kp F9  &kp F10         &kp F11         &kp F12                                     &kp LC(KP_MINUS)   &kp LC(KP_PLUS)  &kp F11   &trans       &trans
 &trans                 &trans  &trans          &msc SCRL_UP    &TD28            &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans           &trans    &trans       &trans
                                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                             &trans             &trans           &trans
@@ -569,10 +577,10 @@
 
         layer_5 {
             bindings = <
-&trans                     &kp F1  &kp F2          &kp F3          &kp F4                                    &kp LG(T)              &kp LC(LS(TAB))  &kp UP    &kp LC(TAB)  &mt LG(R) LG(W)
-&trans                     &kp F5  &kp F6          &kp F7          &kp F8                                    &kp LG(RIGHT_BRACKET)  &kp LEFT         &kp DOWN  &kp RIGHT    &kp F3
+&iOS_00                    &kp F1  &kp F2          &kp F3          &kp F4                                    &kp LG(T)              &kp LC(LS(TAB))  &kp UP    &kp LC(TAB)  &mt LG(R) LG(W)
+&iOS_01                    &kp F5  &kp F6          &kp F7          &kp F8                                    &kp LG(RIGHT_BRACKET)  &kp LEFT         &kp DOWN  &kp RIGHT    &kp F3
 &mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10         &kp F11         &kp F12                                   &kp LG(KP_MINUS)       &kp LG(KP_PLUS)  &trans    &trans       &trans
-&trans                     &trans  &trans          &msc SCRL_UP    &iOS_01          &iOS_02    &kp LG(LEFT)  &kp LG(RIGHT)          &trans           &trans    &trans       &trans
+&trans                     &trans  &trans          &msc SCRL_UP    &iOS_02          &iOS_03    &kp LG(LEFT)  &kp LG(RIGHT)          &trans           &trans    &trans       &trans
                                    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                           &trans                 &trans           &trans
             >;
         };
