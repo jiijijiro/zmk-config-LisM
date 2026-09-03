@@ -199,7 +199,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD14";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mc04>, <&mc06>;
+
             tapping-term-ms = <300>;
         };
 
@@ -207,7 +208,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD15";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(A)>, <&mc09>;
+
             tapping-term-ms = <300>;
         };
 
@@ -215,7 +217,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD16";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(S)>, <&mc10>;
+
             tapping-term-ms = <300>;
         };
 
@@ -223,7 +226,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD17";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt LALT LC(D)>, <&mc11>;
+
             tapping-term-ms = <300>;
         };
 
@@ -231,7 +235,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD18";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt LC(LGUI) LC(PAGE_UP)>, <&mc07>;
+
             tapping-term-ms = <300>;
         };
 
@@ -247,7 +252,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD20";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt LSHFT LC(Z)>, <&kp LC(N1)>;
+
             tapping-term-ms = <300>;
         };
 
@@ -541,11 +547,11 @@
 
         layer_1 {
             bindings = <
-&mc05   &mc01      &mc02           &mc03           &TD14                                           &kp HOME   &kp END    &kp N7  &kp N8  &lt 2 N9
-&TD15   &TD16      &TD17           &TD18           &kp LC(PAGE_DOWN)                               &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
-&TD20   &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                       &TD08      &kp N0     &kp N1  &kp N2  &kp N3
-&trans  &trans     &trans          &mmv MOVE_UP    &kp LG(L)          &kp LA(F4)    &kp BACKSPACE  &kp LANG2  &trans     &trans  &trans  &trans
-                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                 &trans     &trans     &trans
+&mc05   &mc01      &mc02           &mc03           &TD14                                                 &kp HOME   &kp END    &kp N7  &kp N8  &lt 2 N9
+&TD15   &TD16      &TD17           &TD18           &mt LCTRL LC(PAGE_DOWN)                               &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
+&TD20   &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                             &TD08      &kp N0     &kp N1  &kp N2  &kp N3
+&trans  &trans     &trans          &mmv MOVE_UP    &kp LG(L)                &kp LA(F4)    &kp BACKSPACE  &kp LANG2  &trans     &trans  &trans  &trans
+                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                       &trans     &trans     &trans
             >;
         };
 
