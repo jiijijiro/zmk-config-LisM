@@ -492,7 +492,7 @@
 
         layer_0 {
             bindings = <
-&lt 2 Q      &lt 1 W  &kp E       &kp R       &kp T                                        &trans       &kp Y        &kp U       &lt 1 O     &lt 2 O
+&lt 2 Q      &lt 1 W  &kp E       &kp R       &kp T                                        &trans       &kp Y        &kp U       &lt 1 I     &lt 2 O
 &lt 1 A      &lt 2 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &trans       &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P
 &mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &TD03        &TD04        &kp N       &lt 6 L     &mt RSHFT L
 &trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 2 BACKSPACE  &lt 1 LANG1  &trans       &trans      &trans      &trans
@@ -522,7 +522,7 @@
 
         layer_3 {
             bindings = <
-&lt 5 Q      &lt 4 W      &kp E       &kp R        &kp T                                        &trans       &kp Y       &kp U        &lt 4 O     &lt 5 O
+&lt 5 Q      &lt 4 W      &kp E       &kp R        &kp T                                        &trans       &kp Y       &kp U        &lt 4 I     &lt 5 O
 &lt 4 A      &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &trans       &mt RGUI H  &mt RCTRL J  &mt RALT K  &mt GLOBE P
 &mt LSHFT Z  &lt 6 X      &kp C       &kp V        &kp B                                        &TD03        &TD04       &kp N        &lt 6 L     &mt RSHFT L
 &trans       &trans       &trans      &kp UP       &lt 2 LANG2  &lt 1 SPACE    &lt 2 BACKSPACE  &lt 1 LANG1  &trans      &trans       &trans      &trans
