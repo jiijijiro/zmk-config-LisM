@@ -492,8 +492,8 @@
 
         layer_0 {
             bindings = <
-&lt 2 Q      &lt 1 W  &kp E       &kp R       &kp T                                        &trans       &kp Y        &kp U       &lt 1 I     &lt 2 O
-&lt 1 A      &lt 2 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &trans       &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P
+&lt 2 Q      &lt 1 W  &lt 6 E     &kp R       &kp T                                        &trans       &kp Y        &lt 6 U     &lt 1 I     &lt 2 O
+&lt 1 A      &kp S    &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &trans       &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P
 &mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &TD03        &TD04        &kp N       &lt 6 L     &mt RSHFT L
 &trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 2 BACKSPACE  &lt 1 LANG1  &trans       &trans      &trans      &trans
                       &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans       &trans
@@ -522,7 +522,7 @@
 
         layer_3 {
             bindings = <
-&lt 5 Q      &lt 4 W      &kp E       &kp R        &kp T                                        &trans       &kp Y       &kp U        &lt 4 I     &lt 5 O
+&lt 5 Q      &lt 4 W      &lt 6 E     &kp R        &kp T                                        &trans       &kp Y       &lt 6 U      &lt 4 I     &lt 5 O
 &lt 4 A      &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &trans       &mt RGUI H  &mt RCTRL J  &mt RALT K  &mt GLOBE P
 &mt LSHFT Z  &lt 6 X      &kp C       &kp V        &kp B                                        &TD03        &TD04       &kp N        &lt 6 L     &mt RSHFT L
 &trans       &trans       &trans      &kp UP       &lt 2 LANG2  &lt 1 SPACE    &lt 2 BACKSPACE  &lt 1 LANG1  &trans      &trans       &trans      &trans
@@ -552,11 +552,11 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans        &trans        &trans                          &trans  &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
-&trans  &trans  &trans        &trans        &trans                          &trans  &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
-&trans  &trans  &trans        &trans        &trans                          &trans  &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
-&trans  &trans  &trans        &kp C_VOL_UP  &trans        &trans    &trans  &trans  &trans  &trans      &trans            &trans
-                &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                    &trans  &trans  &trans
+&trans  &trans  &trans        &mc2          &mc3                        &mc3    &mc2    &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&trans  &trans  &trans        &trans        &trans                      &trans  &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&trans  &trans  &trans        &trans        &trans                      &TD08   &TD09   &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&trans  &trans  &trans        &kp C_VOL_UP  &mc1          &mc0    &mc0  &mc1    &trans  &trans      &trans            &trans
+                &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                &trans  &trans  &trans
             >;
         };
     };
