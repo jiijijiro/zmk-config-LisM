@@ -107,7 +107,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD03";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&us_eq>, <&kp LS(APOS)>;
+
             tapping-term-ms = <300>;
         };
 
@@ -115,7 +116,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD04";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&us_min>, <&kp LS(LEFT_BRACKET)>;
+
             tapping-term-ms = <300>;
         };
 
@@ -147,7 +149,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD08";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp KP_PLUS>, <&kp KP_ASTERISK>;
+
             tapping-term-ms = <300>;
         };
 
@@ -155,7 +158,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD09";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp KP_MINUS>, <&kp KP_SLASH>;
+
             tapping-term-ms = <300>;
         };
 
@@ -537,7 +541,7 @@
 
         layer_1 {
             bindings = <
-&TD10   &mc01      &mc02           &mc04           &TD14                                           &kp HOME   &kp END    &kp N7  &kp N8  &lt 2 N9
+&mc05   &mc01      &mc02           &mc03           &TD14                                           &kp HOME   &kp END    &kp N7  &kp N8  &lt 2 N9
 &TD15   &TD16      &TD17           &TD18           &kp LC(PAGE_DOWN)                               &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
 &TD20   &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                       &TD08      &kp N0     &kp N1  &kp N2  &kp N3
 &trans  &trans     &trans          &mmv MOVE_UP    &kp LG(L)          &kp LA(F4)    &kp BACKSPACE  &kp LANG2  &trans     &trans  &trans  &trans
