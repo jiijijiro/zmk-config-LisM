@@ -107,8 +107,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD03";
             #binding-cells = <0>;
-            bindings = <&us_eq>, <&kp LS(APOS)>;
-
+            bindings = <&none>;
             tapping-term-ms = <300>;
         };
 
@@ -116,7 +115,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD04";
             #binding-cells = <0>;
-            bindings = <&us_min>, <&kp LS(EQUAL)>;
+            bindings = <&us_min>, <&us_eq>;
 
             tapping-term-ms = <300>;
         };
@@ -125,7 +124,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD05";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp COMMA>, <&us_ap>;
+
             tapping-term-ms = <300>;
         };
 
@@ -133,7 +133,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD06";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&lt 6 DOT>, <&us_se>;
+
             tapping-term-ms = <300>;
         };
 
@@ -141,7 +142,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD07";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp SLASH>, <&kp LS(N1)>;
+
             tapping-term-ms = <300>;
         };
 
@@ -739,9 +741,9 @@
         layer_0 {
             bindings = <
 &lt 2 Q      &lt 1 W  &kp E       &kp R       &lt 7 T                                      &lt 7 Y      &kp U       &kp I       &lt 1 O  &lt 2 P
-&lt 1 A      &lt 2 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &kp MINUS
-&mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &kp N        &kp M       &kp COMMA   &kp DOT  &kp FSLH
-&trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 2 BACKSPACE  &lt 1 LANG1  &trans      &trans      &trans   &trans
+&lt 1 A      &lt 2 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD04
+&mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &kp N        &kp M       &TD05       &TD06    &TD07
+&trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 LANG1  &trans      &trans      &trans   &trans
                       &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
             >;
         };
