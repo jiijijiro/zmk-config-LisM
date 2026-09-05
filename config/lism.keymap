@@ -478,24 +478,21 @@
         mc09: mc09 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_pause_for_release>, <&kp LA(H) &kp A &kp L>;
-
+            bindings = <&kp LA(H) &kp A &kp L>;
             label = "MC09";
         };
 
         mc10: mc10 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_pause_for_release>, <&kp LA(H) &kp A &kp C>;
-
+            bindings = <&kp LA(H) &kp A &kp C>;
             label = "MC10";
         };
 
         mc11: mc11 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_pause_for_release>, <&kp LA(H) &kp A &kp R>;
-
+            bindings = <&kp LA(H) &kp A &kp R>;
             label = "MC11";
         };
 
@@ -741,21 +738,21 @@
 
         layer_0 {
             bindings = <
-&lt 2 Q      &lt 1 W  &kp E       &kp R       &lt 7 T                                      &mo 7        &kp Y        &kp U       &lt 1 I     &lt 2 O
-&lt 1 A      &lt 2 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &trans       &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P
-&mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &TD03        &TD04        &kp N       &lt 6 M     &mt RSHFT L
-&trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 2 BACKSPACE  &lt 1 LANG1  &trans       &trans      &trans      &trans
-                      &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans       &trans
+&lt 2 Q      &lt 1 W  &kp E       &kp R       &lt 7 T                                      &lt 7 Y      &kp U       &kp I       &lt 1 O  &lt 2 P
+&lt 1 A      &lt 2 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &kp MINUS
+&mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &kp N        &kp M       &kp COMMA   &kp DOT  &kp FSLH
+&trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 2 BACKSPACE  &lt 1 LANG1  &trans      &trans      &trans   &trans
+                      &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
             >;
         };
 
         layer_1 {
             bindings = <
-&mc05   &mc01      &mc02           &mc03           &TD14                                                 &kp HOME   &kp END            &kp N7       &kp N8       &lt 2 N9
-&TD15   &TD16      &TD17           &TD18           &mt LCTRL LC(PAGE_DOWN)                               &kp PG_UP  &mt RCTRL PAGE_UP  &mt RGUI N4  &mt RALT N5  &kp N6
-&TD20   &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                             &TD08      &kp N0             &kp N1       &kp N2       &mt RSHFT N3
-&trans  &trans     &trans          &mmv MOVE_UP    &kp LG(L)                &kp LA(F4)    &kp BACKSPACE  &kp LANG2  &trans             &trans       &trans       &trans
-                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                       &trans     &trans             &trans
+&mc05   &mc01      &mc02           &mc03           &TD14                                                 &kp N7  &kp N8  &kp N9  &trans  &trans
+&TD15   &TD16      &TD17           &TD18           &mt LCTRL LC(PAGE_DOWN)                               &kp N4  &kp N5  &kp N6  &trans  &trans
+&TD20   &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                             &kp N1  &kp N2  &kp N3  &trans  &trans
+&trans  &trans     &trans          &mmv MOVE_UP    &kp LG(L)                &kp LA(F4)    &kp BACKSPACE  &kp N0  &trans  &trans  &trans  &trans
+                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                       &trans  &trans  &trans
             >;
         };
 
