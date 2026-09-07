@@ -83,7 +83,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD00";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&us01_min>, <&us02_eq>;
+
             tapping-term-ms = <300>;
         };
 
@@ -91,7 +92,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD01";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp COMMA>, <&us04_ap>;
+
             tapping-term-ms = <300>;
         };
 
@@ -99,7 +101,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD02";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp DOT>, <&us03_se>;
+
             tapping-term-ms = <300>;
         };
 
@@ -107,7 +110,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD03";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt RSHFT SLASH>, <&us00_bq>;
+
             tapping-term-ms = <300>;
         };
 
@@ -115,7 +119,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD04";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp KP_ASTERISK>, <&kp HOME>;
+
             tapping-term-ms = <300>;
         };
 
@@ -123,7 +128,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD05";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp KP_SLASH>, <&kp END>;
+
             tapping-term-ms = <300>;
         };
 
@@ -131,7 +137,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD06";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp KP_PLUS>, <&kp PAGE_UP>;
+
             tapping-term-ms = <300>;
         };
 
@@ -139,7 +146,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD07";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp KP_MINUS>, <&kp PAGE_DOWN>;
+
             tapping-term-ms = <300>;
         };
 
@@ -147,7 +155,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD08";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt COMMA DOT>, <&us03_se>;
+
             tapping-term-ms = <300>;
         };
 
@@ -155,7 +164,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD09";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt RSHFT ENTER>, <&kp TAB>;
+
             tapping-term-ms = <300>;
         };
 
@@ -307,7 +317,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD28";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(LG(LEFT))>, <&kp LA(LC(LG(LEFT)))>;
+
             tapping-term-ms = <300>;
         };
 
@@ -315,7 +326,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD29";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(LG(RIGHT))>, <&kp LA(LC(LG(RIGHT)))>;
+
             tapping-term-ms = <300>;
         };
 
