@@ -64,7 +64,7 @@
         us03_se: us03_se {
             compatible = "zmk,behavior-mod-morph";
             label = "US03_SE";
-            bindings = <&kp LS(APOS)>, <&kp SEMI>;
+            bindings = <&kp APOS>, <&kp SEMI>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -689,6 +689,11 @@
         combo24 {
             bindings = <&kp RIGHT>;
             key-positions = <17 27>;
+        };
+
+        combo25 {
+            bindings = <&mc00>;
+            key-positions = <15 16>;
         };
     };
 
