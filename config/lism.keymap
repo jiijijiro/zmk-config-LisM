@@ -354,7 +354,7 @@
         bt02: bt02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&out OUT_BLE &bt BT_SEL 2 &mo 0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 2 &mo 3>;
             label = "BT02";
         };
 
@@ -516,21 +516,11 @@
 
         layer_3 {
             bindings = <
-&lt 4 Q      &lt 5 W      &kp E       &kp R       &lt 6 T                                      &kp Y        &kp U       &kp I       &lt 5 O      &lt 4 P
-&lt 5 A      &mt GLOBE S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &mt GLOBE L  &TD00
+&lt 5 Q      &lt 4 W      &kp E       &kp R       &lt 6 T                                      &kp Y        &kp U       &kp I       &lt 4 O      &lt 5 P
+&lt 4 A      &mt GLOBE S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &mt GLOBE L  &TD00
 &mt LSHFT Z  &lt 6 X      &kp C       &kp V       &kp B                                        &kp N        &kp M       &TD01       &TD02        &TD03
-&trans       &trans       &trans      &kp UP      &lt 5 LANG2  &lt 4 SPACE    &lt 4 BACKSPACE  &lt 5 LANG1  &trans      &trans      &trans       &trans
+&trans       &trans       &trans      &kp UP      &lt 4 LANG2  &lt 5 SPACE    &lt 5 BACKSPACE  &lt 4 LANG1  &trans      &trans      &trans       &trans
                           &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans          &trans          &trans                                   &kp N7  &kp N8  &kp N9  &TD04   &TD05
-&kp A   &kp S   &trans          &trans          &trans                                   &kp N4  &kp N5  &kp N6  &TD06   &TD07
-&kp Z   &kp X   &kp C           &kp V           &kp B                                    &kp N1  &kp N2  &kp N3  &TD08   &TD09
-&trans  &trans  &trans          &msc SCRL_UP    &kp LG(L)        &kp LA(F4)    &kp BSPC  &kp N0  &trans  &trans  &trans  &trans
-                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                          &trans  &trans  &trans
             >;
         };
 
@@ -541,6 +531,16 @@
 &mt LG(P) PRINTSCREEN  &kp F9  &kp F10         &kp F11         &kp F12                                     &trans             &trans  &trans  &trans  &trans
 &trans                 &trans  &trans          &mmv MOVE_UP    &TD28            &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans  &trans  &trans  &trans
                                &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                             &trans             &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans          &trans          &trans                                   &kp N7  &kp N8  &kp N9  &TD04   &TD05
+&kp A   &kp S   &trans          &trans          &trans                                   &kp N4  &kp N5  &kp N6  &TD06   &TD07
+&kp Z   &kp X   &kp C           &kp V           &kp B                                    &kp N1  &kp N2  &kp N3  &TD08   &TD09
+&trans  &trans  &trans          &msc SCRL_UP    &kp LG(L)        &kp LA(F4)    &kp BSPC  &kp N0  &trans  &trans  &trans  &trans
+                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                          &trans  &trans  &trans
             >;
         };
 
