@@ -598,21 +598,11 @@
 
         layer_3 {
             bindings = <
-&lt 5 Q      &lt 4 W      &kp E       &kp R        &lt 6 T                                      &kp Y        &kp U        &kp I       &lt 4 O      &lt 5 P
-&lt 4 A      &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &mt RGUI H   &mt RCTRL J  &mt RALT K  &mt GLOBE L  &TD00
+&lt 4 Q      &lt 5 W      &kp E       &kp R        &lt 6 T                                      &kp Y        &kp U        &kp I       &lt 5 O      &lt 4 P
+&lt 5 A      &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &mt RGUI H   &mt RCTRL J  &mt RALT K  &mt GLOBE L  &TD00
 &mt LSHFT Z  &lt 6 X      &kp C       &kp V        &kp B                                        &kp N        &kp M        &TD01       &TD02        &TD03
-&trans       &trans       &trans      &kp UP       &lt 4 LANG2  &lt 5 SPACE    &lt 5 BACKSPACE  &lt 4 LANG1  &trans       &trans      &trans       &trans
+&trans       &trans       &trans      &kp UP       &lt 5 LANG2  &lt 4 SPACE    &lt 4 BACKSPACE  &lt 5 LANG1  &trans       &trans      &trans       &trans
                           &kp LEFT    &kp DOWN     &kp RIGHT                                    &trans       &trans       &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&iOS01                     &kp F1  &kp F2          &kp F3          &kp F4                                   &trans         &trans  &trans  &trans  &trans
-&iOS02                     &kp F5  &kp F6          &kp F7          &kp F8                                   &trans         &trans  &trans  &trans  &trans
-&mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10         &kp F11         &kp F12                                  &trans         &trans  &trans  &trans  &trans
-&trans                     &trans  &trans          &mmv MOVE_UP    &iOS03           &iOS04    &kp LG(LEFT)  &kp LG(RIGHT)  &trans  &trans  &trans  &trans
-                                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                          &trans         &trans  &trans
             >;
         };
 
@@ -623,6 +613,16 @@
 &kp LG(Z)  &kp LG(X)        &kp LG(C)       &kp LG(V)       &kp LG(B)                            &kp N1       &kp N2        &kp N3       &TD08   &TD09
 &trans     &trans           &trans          &msc SCRL_UP    &kp LG(LC(Q))    &iOS00    &kp BSPC  &kp N0       &trans        &trans       &trans  &trans
                             &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                      &trans       &trans        &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&iOS01                     &kp F1  &kp F2          &kp F3          &kp F4                                   &trans         &trans  &trans  &trans  &trans
+&iOS02                     &kp F5  &kp F6          &kp F7          &kp F8                                   &trans         &trans  &trans  &trans  &trans
+&mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10         &kp F11         &kp F12                                  &trans         &trans  &trans  &trans  &trans
+&trans                     &trans  &trans          &mmv MOVE_UP    &iOS03           &iOS04    &kp LG(LEFT)  &kp LG(RIGHT)  &trans  &trans  &trans  &trans
+                                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                          &trans         &trans  &trans
             >;
         };
 
