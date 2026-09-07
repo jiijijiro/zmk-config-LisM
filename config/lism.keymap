@@ -628,7 +628,7 @@
 
         layer_6 {
             bindings = <
-&out OUT_USB  &bt04   &bt03         &bt02         &trans                        &kp LS(N6)  &kp LS(N8)        &kp LS(N9)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)
+&out OUT_USB  &bt04   &bt03         &bt02         &bootloader                   &kp LS(N6)  &kp LS(N8)        &kp LS(N9)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)
 &kp LG(T)     &trans  &trans        &trans        &trans                        &kp LS(N4)  &kp LS(N5)        &kp EQUAL   &kp RIGHT_BRACKET      &kp NON_US_HASH
 &trans        &trans  &trans        &trans        &trans                        &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)  &kp LS(LEFT_BRACKET)   &kp LS(EQUAL)
 &trans        &trans  &trans        &kp C_VOL_UP  &bt01         &bt00    &bt00  &bt02       &trans            &trans      &trans                 &trans
