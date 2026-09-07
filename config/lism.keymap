@@ -501,6 +501,18 @@
             bindings = <&kp LA(H) &kp A &kp R>;
             label = "MC11";
         };
+
+        iOS00: iOS00 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp H>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS00";
+        };
     };
 
     keymap {
