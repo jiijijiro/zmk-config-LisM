@@ -181,7 +181,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD11";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mc02>, <&kp LS(LC(F1))>;
+
             tapping-term-ms = <300>;
         };
 
@@ -492,6 +493,32 @@
             bindings = <&kp LA(H) &kp A &kp R>;
             label = "MC11";
         };
+
+        mc12: mc12 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&msc SCRL_DOWN>,
+                <&macro_release>;
+
+            label = "MC12";
+        };
+
+        mc13: mc13 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&msc SCRL_UP>,
+                <&macro_release>;
+
+            label = "MC13";
+        };
     };
 
     keymap {
@@ -509,7 +536,7 @@
 
         layer_1 {
             bindings = <
-&mc01   &mc02   &mc03           &mc04           &TD14                                    &kp N7        &kp N8       &kp N9       &TD04   &TD05
+&mc01   &TD11   &mc03           &mc04           &TD14                                    &kp N7        &kp N8       &kp N9       &TD04   &TD05
 &kp A   &kp S   &trans          &trans          &trans                                   &mt RCTRL N4  &mt RGUI N5  &mt RALT N6  &TD06   &TD07
 &kp Z   &kp X   &kp C           &kp V           &kp B                                    &kp N1        &kp N2       &kp N3       &TD08   &TD09
 &trans  &trans  &trans          &msc SCRL_UP    &kp LG(L)        &kp LA(F4)    &kp BSPC  &kp N0        &trans       &trans       &trans  &trans
