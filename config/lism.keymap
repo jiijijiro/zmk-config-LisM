@@ -568,7 +568,7 @@
 
         layer_0 {
             bindings = <
-&lt 1 Q      &lt 2 W  &kp E       &kp R       &lt 6 T                                      &kp Y        &kp U       &kp I       &lt 2 O  &lt 1 P
+&lt 1 Q      &lt 2 W  &kp E       &kp R       &lt 6 T                                      &lt 6 Y      &kp U       &kp I       &lt 2 O  &lt 1 P
 &lt 2 A      &lt 6 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD00
 &mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &kp N        &kp M       &TD01       &TD02    &TD03
 &trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 LANG1  &trans      &trans      &trans   &trans
@@ -598,7 +598,7 @@
 
         layer_3 {
             bindings = <
-&lt 4 Q      &lt 5 W      &kp E       &kp R        &lt 6 T                                      &kp Y        &kp U        &kp I       &lt 5 O      &lt 4 P
+&lt 4 Q      &lt 5 W      &kp E       &kp R        &lt 6 T                                      &lt 6 Y      &kp U        &kp I       &lt 5 O      &lt 4 P
 &lt 5 A      &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &mt RGUI H   &mt RCTRL J  &mt RALT K  &mt GLOBE L  &TD00
 &mt LSHFT Z  &lt 6 X      &kp C       &kp V        &kp B                                        &kp N        &kp M        &TD01       &TD02        &TD03
 &trans       &trans       &trans      &kp UP       &lt 5 LANG2  &lt 4 SPACE    &lt 4 BACKSPACE  &lt 5 LANG1  &trans       &trans      &trans       &trans
@@ -628,11 +628,11 @@
 
         layer_6 {
             bindings = <
-&out OUT_USB  &bt04   &bt03         &bt02         &trans                         &kp LS(N6)  &kp LS(N8)        &kp LS(N9)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)
-&kp LG(T)     &trans  &trans        &trans        &trans                         &kp LS(N4)  &kp LS(N5)        &kp EQUAL   &kp RIGHT_BRACKET      &kp NON_US_HASH
-&trans        &trans  &trans        &trans        &trans                         &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)  &kp LS(LEFT_BRACKET)   &kp LS(EQUAL)
-&trans        &trans  &trans        &kp C_VOL_UP  &bt01         &bt00    &trans  &trans      &trans            &trans      &trans                 &trans
-                      &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                   &trans      &trans            &trans
+&out OUT_USB  &bt04   &bt03         &bt02         &trans                        &kp LS(N6)  &kp LS(N8)        &kp LS(N9)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)
+&kp LG(T)     &trans  &trans        &trans        &trans                        &kp LS(N4)  &kp LS(N5)        &kp EQUAL   &kp RIGHT_BRACKET      &kp NON_US_HASH
+&trans        &trans  &trans        &trans        &trans                        &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)  &kp LS(LEFT_BRACKET)   &kp LS(EQUAL)
+&trans        &trans  &trans        &kp C_VOL_UP  &bt01         &bt00    &bt00  &bt02       &trans            &trans      &trans                 &trans
+                      &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                  &trans      &trans            &trans
             >;
         };
     };
