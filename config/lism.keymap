@@ -110,7 +110,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD03";
             #binding-cells = <0>;
-            bindings = <&mt RSHFT SLASH>, <&us00_bq>;
+            bindings = <&mt RSHFT SLASH>, <&kp INT3>;
 
             tapping-term-ms = <300>;
         };
@@ -128,7 +128,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD05";
             #binding-cells = <0>;
-            bindings = <&lt 2 KP_SLASH>, <&kp END>;
+            bindings = <&lt 1 KP_SLASH>, <&kp END>;
 
             tapping-term-ms = <300>;
         };
@@ -137,7 +137,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD06";
             #binding-cells = <0>;
-            bindings = <&kp KP_PLUS>, <&kp PAGE_UP>;
+            bindings = <&mt GLOBE KP_PLUS>, <&kp PAGE_UP>;
 
             tapping-term-ms = <300>;
         };
@@ -509,11 +509,11 @@
 
         layer_1 {
             bindings = <
-&mc01   &mc02   &mc03           &mc04           &TD14                                    &kp N7  &kp N8  &kp N9  &TD04   &TD05
-&kp A   &kp S   &trans          &trans          &trans                                   &kp N4  &kp N5  &kp N6  &TD06   &TD07
-&kp Z   &kp X   &kp C           &kp V           &kp B                                    &kp N1  &kp N2  &kp N3  &TD08   &TD09
-&trans  &trans  &trans          &msc SCRL_UP    &kp LG(L)        &kp LA(F4)    &kp BSPC  &kp N0  &trans  &trans  &trans  &trans
-                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                          &trans  &trans  &trans
+&mc01   &mc02   &mc03           &mc04           &TD14                                    &kp N7        &kp N8       &kp N9       &TD04   &TD05
+&kp A   &kp S   &trans          &trans          &trans                                   &mt RCTRL N4  &mt RGUI N5  &mt RALT N6  &TD06   &TD07
+&kp Z   &kp X   &kp C           &kp V           &kp B                                    &kp N1        &kp N2       &kp N3       &TD08   &TD09
+&trans  &trans  &trans          &msc SCRL_UP    &kp LG(L)        &kp LA(F4)    &kp BSPC  &kp N0        &trans       &trans       &trans  &trans
+                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                          &trans        &trans       &trans
             >;
         };
 
