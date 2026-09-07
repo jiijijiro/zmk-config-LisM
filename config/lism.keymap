@@ -587,7 +587,7 @@
         };
 
         combo04 {
-            bindings = <&kp LANG2>;
+            bindings = <&kp TAB>;
             key-positions = <36 37>;
         };
 
