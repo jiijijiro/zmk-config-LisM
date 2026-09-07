@@ -563,6 +563,135 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo00 {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        combo01 {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+        };
+
+        combo02 {
+            bindings = <&kp CAPS>;
+            key-positions = <20 21>;
+        };
+
+        combo03 {
+            bindings = <&kp ENTER>;
+            key-positions = <34 35>;
+        };
+
+        combo04 {
+            bindings = <&kp LANG2>;
+            key-positions = <36 37>;
+        };
+
+        combo05 {
+            bindings = <&kp DEL>;
+            key-positions = <0 10>;
+        };
+
+        combo06 {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 20>;
+        };
+
+        combo07 {
+            bindings = <&mkp MB1>;
+            key-positions = <1 11>;
+        };
+
+        combo08 {
+            bindings = <&mkp MB2>;
+            key-positions = <2 12>;
+        };
+
+        combo09 {
+            bindings = <&mkp MB1>;
+            key-positions = <7 17>;
+        };
+
+        combo10 {
+            bindings = <&mkp MB2>;
+            key-positions = <8 18>;
+        };
+
+        combo11 {
+            bindings = <&kp DEL>;
+            key-positions = <9 19>;
+        };
+
+        combo12 {
+            bindings = <&kp ENTER>;
+            key-positions = <19 29>;
+        };
+
+        combo13 {
+            bindings = <&kp HOME>;
+            key-positions = <3 4>;
+        };
+
+        combo14 {
+            bindings = <&kp END>;
+            key-positions = <13 14>;
+        };
+
+        combo15 {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <3 13>;
+        };
+
+        combo16 {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <4 14>;
+        };
+
+        combo17 {
+            bindings = <&kp UP>;
+            key-positions = <12 13>;
+        };
+
+        combo18 {
+            bindings = <&kp DOWN>;
+            key-positions = <22 23>;
+        };
+
+        combo19 {
+            bindings = <&kp LEFT>;
+            key-positions = <12 22>;
+        };
+
+        combo20 {
+            bindings = <&kp RIGHT>;
+            key-positions = <13 23>;
+        };
+
+        combo21 {
+            bindings = <&kp UP>;
+            key-positions = <16 17>;
+        };
+
+        combo22 {
+            bindings = <&kp DOWN>;
+            key-positions = <26 27>;
+        };
+
+        combo23 {
+            bindings = <&kp LEFT>;
+            key-positions = <16 26>;
+        };
+
+        combo24 {
+            bindings = <&kp RIGHT>;
+            key-positions = <17 27>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
