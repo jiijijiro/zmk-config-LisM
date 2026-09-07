@@ -337,39 +337,39 @@
     };
 
     macros {
-        mc_bt00: mc_bt00 {
+        bt00: bt00 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 0 &mo 0>;
-            label = "MC_BT00";
+            label = "BT00";
         };
 
-        mc_bt01: mc_bt01 {
+        bt01: bt01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 1 &mo 0>;
-            label = "MC_BT01";
+            label = "BT01";
         };
 
-        mc_bt02: mc_bt02 {
+        bt02: bt02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 2 &mo 0>;
-            label = "MC_BT02";
+            label = "BT02";
         };
 
-        mc_bt03: mc_bt03 {
+        bt03: bt03 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 3 &mo 0>;
-            label = "MC_BT03";
+            label = "BT03";
         };
 
-        mc_bt04: mc_bt04 {
+        bt04: bt04 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 4 &mo 0>;
-            label = "MC_BT04";
+            label = "BT04";
         };
     };
 
