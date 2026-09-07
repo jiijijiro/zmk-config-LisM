@@ -487,7 +487,7 @@
         layer_0 {
             bindings = <
 &lt 1 Q      &lt 2 W  &kp E       &kp R       &kp T                                        &kp Y        &kp U       &kp I       &lt 2 O  &lt 1 P
-&lt 2 A      &kp S    &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD00
+&lt 2 A      &lt 6 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD00
 &mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &kp N        &kp M       &TD01       &TD02    &TD03
 &trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 LANG1  &trans      &trans      &trans   &trans
                       &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
@@ -546,11 +546,11 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans        &trans        &trans                          &kp LS(N6)  &kp LS(N8)        &kp LS(N9)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)
-&trans  &trans  &trans        &trans        &trans                          &kp LS(N4)  &kp LS(N5)        &kp EQUAL   &kp RIGHT_BRACKET      &kp NON_US_HASH
-&trans  &trans  &trans        &trans        &trans                          &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)  &kp LS(LEFT_BRACKET)   &kp LS(EQUAL)
-&trans  &trans  &trans        &kp C_VOL_UP  &trans        &trans    &trans  &trans      &trans            &trans      &trans                 &trans
-                &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                    &trans      &trans            &trans
+&out OUT_USB  &bt04   &bt03         &bt02         &trans                         &kp LS(N6)  &kp LS(N8)        &kp LS(N9)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)
+&kp LG(T)     &trans  &trans        &trans        &trans                         &kp LS(N4)  &kp LS(N5)        &kp EQUAL   &kp RIGHT_BRACKET      &kp NON_US_HASH
+&trans        &trans  &trans        &trans        &trans                         &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)  &kp LS(LEFT_BRACKET)   &kp LS(EQUAL)
+&trans        &trans  &trans        &kp C_VOL_UP  &bt01         &bt00    &trans  &trans      &trans            &trans      &trans                 &trans
+                      &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                   &trans      &trans            &trans
             >;
         };
     };
