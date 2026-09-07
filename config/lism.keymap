@@ -577,13 +577,13 @@
         };
 
         combo02 {
-            bindings = <&kp CAPS>;
-            key-positions = <20 21>;
+            bindings = <&kp ENTER>;
+            key-positions = <34 35>;
         };
 
         combo03 {
-            bindings = <&kp ENTER>;
-            key-positions = <34 35>;
+            bindings = <&kp ESC>;
+            key-positions = <8 9>;
         };
 
         combo04 {
@@ -716,7 +716,7 @@
             bindings = <
 &lt 2 Q      &lt 1 W  &kp E       &kp R       &lt 6 T                                      &lt 6 Y      &kp U       &kp I       &lt 1 O  &lt 2 P
 &lt 1 A      &lt 6 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD00
-&mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &kp N        &kp M       &TD01       &TD02    &TD03
+&mt LSHFT Z  &lt 6 X  &mt CAPS C  &kp V       &kp B                                        &kp N        &kp M       &TD01       &TD02    &TD03
 &trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 LANG1  &trans      &trans      &trans   &trans
                       &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
             >;
@@ -746,7 +746,7 @@
             bindings = <
 &lt 5 Q      &lt 4 W      &kp E       &kp R        &lt 6 T                                      &lt 6 Y      &kp U        &kp I       &lt 4 O      &lt 5 P
 &lt 4 A      &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &mt RGUI H   &mt RCTRL J  &mt RALT K  &mt GLOBE L  &TD00
-&mt LSHFT Z  &lt 6 X      &kp C       &kp V        &kp B                                        &kp N        &kp M        &TD01       &TD02        &TD03
+&mt LSHFT Z  &lt 6 X      &mt CAPS C  &kp V        &kp B                                        &kp N        &kp M        &TD01       &TD02        &TD03
 &trans       &trans       &trans      &kp UP       &lt 5 LANG2  &lt 4 SPACE    &lt 4 BACKSPACE  &lt 5 LANG1  &trans       &trans      &trans       &trans
                           &kp LEFT    &kp DOWN     &kp RIGHT                                    &trans       &trans       &trans
             >;
@@ -764,10 +764,10 @@
 
         layer_5 {
             bindings = <
-&iOS01                     &kp F1  &kp F2          &kp F3          &kp F4                                   &kp LG(L)              &kp LA(LG(B))    &kp HOME          &mt LG(LC(Q)) LG(T)  &mt LG(H) LG(W)
-&iOS02                     &kp F5  &kp F6          &kp F7          &kp F8                                   &kp LG(RIGHT_BRACKET)  &kp LS(LC(TAB))  &kp END           &kp LC(TAB)          &kp LG(R)
-&mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10         &kp F11         &kp F12                                  &kp LG(F)              &kp LG(G)        &kp LG(KP_MINUS)  &kp LG(KP_PLUS)      &kp LG(N0)
-&trans                     &trans  &trans          &mmv MOVE_UP    &iOS03           &iOS04    &kp LG(LEFT)  &kp LG(RIGHT)          &trans           &trans            &trans               &trans
+&iOS01                     &kp F1  &kp F2          &kp F3          &kp F4                                   &kp LG(L)              &kp LA(LG(B))    &kp LG(UP)    &mt LG(LC(Q)) LG(T)  &mt LG(H) LG(W)
+&iOS02                     &kp F5  &kp F6          &kp F7          &kp F8                                   &kp LG(RIGHT_BRACKET)  &kp LS(LC(TAB))  &kp LG(DOWN)  &kp LC(TAB)          &kp LG(R)
+&mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10         &kp F11         &kp F12                                  &kp LG(F)              &kp LG(G)        &trans        &trans               &trans
+&trans                     &trans  &trans          &mmv MOVE_UP    &iOS03           &iOS04    &kp LG(LEFT)  &kp LG(RIGHT)          &trans           &trans        &trans               &trans
                                    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                          &trans                 &trans           &trans
             >;
         };
