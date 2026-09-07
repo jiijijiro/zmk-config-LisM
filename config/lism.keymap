@@ -588,7 +588,7 @@
 
         layer_2 {
             bindings = <
-&kp LA(LC(TAB))        &kp F1  &kp F2          &kp F3          &kp F4                                      &kp LC(L)          &kp LC(LS(O))    &kp HOME          &kp LC(T)        &kp LC(W)
+&kp LA(LC(TAB))        &kp F1  &kp F2          &kp F3          &kp F4                                      &kp LC(L)          &kp LC(LS(O))    &kp HOME          &mt LG(L) LC(T)  &mt LA(F4) LC(W)
 &kp LG(A)              &kp F5  &kp F6          &kp F7          &kp F8                                      &kp LA(LEFT)       &kp LS(LC(TAB))  &kp END           &kp LC(TAB)      &kp LC(R)
 &mt LG(P) PRINTSCREEN  &kp F9  &kp F10         &kp F11         &kp F12                                     &kp LC(F)          &kp LC(G)        &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp F11
 &trans                 &trans  &trans          &mmv MOVE_UP    &TD28            &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans           &trans            &trans           &trans
@@ -618,11 +618,11 @@
 
         layer_5 {
             bindings = <
-&iOS01                     &kp F1  &kp F2          &kp F3          &kp F4                                   &trans         &trans  &trans  &trans  &trans
-&iOS02                     &kp F5  &kp F6          &kp F7          &kp F8                                   &trans         &trans  &trans  &trans  &trans
-&mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10         &kp F11         &kp F12                                  &trans         &trans  &trans  &trans  &trans
-&trans                     &trans  &trans          &mmv MOVE_UP    &iOS03           &iOS04    &kp LG(LEFT)  &kp LG(RIGHT)  &trans  &trans  &trans  &trans
-                                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                          &trans         &trans  &trans
+&iOS01                     &kp F1  &kp F2          &kp F3          &kp F4                                   &kp L              &kp B    &kp HOME      &kp T        &kp W
+&iOS02                     &kp F5  &kp F6          &kp F7          &kp F8                                   &kp RIGHT_BRACKET  &kp TAB  &kp END       &kp TAB      &kp R
+&mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10         &kp F11         &kp F12                                  &kp F              &kp G    &kp KP_MINUS  &kp KP_PLUS  &kp N0
+&trans                     &trans  &trans          &mmv MOVE_UP    &iOS03           &iOS04    &kp LG(LEFT)  &kp LG(RIGHT)      &trans   &trans        &trans       &trans
+                                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                          &trans             &trans   &trans
             >;
         };
 
