@@ -362,35 +362,35 @@
         bt00: bt00 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&out OUT_BLE &bt BT_SEL 0 &mo 0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 0 &to 0>;
             label = "BT00";
         };
 
         bt01: bt01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&out OUT_BLE &bt BT_SEL 1 &mo 0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 1 &to 0>;
             label = "BT01";
         };
 
         bt02: bt02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&out OUT_BLE &bt BT_SEL 2 &mo 3>;
+            bindings = <&out OUT_BLE &bt BT_SEL 2 &to 3>;
             label = "BT02";
         };
 
         bt03: bt03 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&out OUT_BLE &bt BT_SEL 3 &mo 0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 3 &to 0>;
             label = "BT03";
         };
 
         bt04: bt04 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&out OUT_BLE &bt BT_SEL 4 &mo 0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 4 &to 0>;
             label = "BT04";
         };
 
@@ -714,8 +714,8 @@
 
         layer_0 {
             bindings = <
-&lt 1 Q      &lt 2 W  &kp E       &kp R       &lt 6 T                                      &lt 6 Y      &kp U       &kp I       &lt 2 O  &lt 1 P
-&lt 2 A      &lt 6 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD00
+&lt 2 Q      &lt 1 W  &kp E       &kp R       &lt 6 T                                      &lt 6 Y      &kp U       &kp I       &lt 1 O  &lt 2 P
+&lt 1 A      &lt 6 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD00
 &mt LSHFT Z  &lt 6 X  &kp C       &kp V       &kp B                                        &kp N        &kp M       &TD01       &TD02    &TD03
 &trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 LANG1  &trans      &trans      &trans   &trans
                       &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
