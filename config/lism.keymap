@@ -277,7 +277,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD22";
             #binding-cells = <0>;
-            bindings = <&kp LC(C)>, <&kp LA(LC(KP_MINUS))>;
+            bindings = <&kp LC(C)>, <&kp LA(LC(KP_PLUS))>;
 
             tapping-term-ms = <300>;
         };
