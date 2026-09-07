@@ -513,6 +513,54 @@
 
             label = "IOS00";
         };
+
+        iOS01: iOS01 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp UP>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS01";
+        };
+
+        iOS02: iOS02 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp C>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS02";
+        };
+
+        iOS03: iOS03 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp LEFT>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS03";
+        };
+
+        iOS04: iOS04 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp RIGHT>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS04";
+        };
     };
 
     keymap {
