@@ -588,11 +588,11 @@
 
         layer_2 {
             bindings = <
-&kp LA(LC(TAB))        &kp F1  &kp F2          &kp F3          &kp F4                                      &trans             &trans  &trans  &trans  &trans
-&kp LG(A)              &kp F5  &kp F6          &kp F7          &kp F8                                      &trans             &trans  &trans  &trans  &trans
-&mt LG(P) PRINTSCREEN  &kp F9  &kp F10         &kp F11         &kp F12                                     &trans             &trans  &trans  &trans  &trans
-&trans                 &trans  &trans          &mmv MOVE_UP    &TD28            &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans  &trans  &trans  &trans
-                               &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                             &trans             &trans  &trans
+&kp LA(LC(TAB))        &kp F1  &kp F2          &kp F3          &kp F4                                      &kp LC(L)          &kp LC(LS(O))    &kp HOME          &kp LC(T)        &kp LC(W)
+&kp LG(A)              &kp F5  &kp F6          &kp F7          &kp F8                                      &kp LA(LEFT)       &kp LS(LC(TAB))  &kp END           &kp LC(TAB)      &kp LC(R)
+&mt LG(P) PRINTSCREEN  &kp F9  &kp F10         &kp F11         &kp F12                                     &kp LC(F)          &kp LC(G)        &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp F11
+&trans                 &trans  &trans          &mmv MOVE_UP    &TD28            &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans           &trans            &trans           &trans
+                               &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                             &trans             &trans           &trans
             >;
         };
 
