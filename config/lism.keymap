@@ -487,7 +487,7 @@
         layer_0 {
             bindings = <
 &lt 1 Q      &lt 2 W  &kp E       &kp R       &kp T                                        &kp Y        &kp U       &kp I       &lt 2 O  &lt 1 P
-&kp A        &kp S    &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD00
+&lt 2 A      &kp S    &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD00
 &mt LSHFT Z  &kp X    &kp C       &kp V       &kp B                                        &kp N        &kp M       &TD01       &TD02    &TD03
 &trans       &trans   &trans      &kp UP      &lt 2 LANG2  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 LANG1  &trans      &trans      &trans   &trans
                       &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
@@ -506,11 +506,11 @@
 
         layer_2 {
             bindings = <
-&kp LA(LC(TAB))        &kp F1  &kp F2   &kp F3   &kp F4                      &trans     &trans  &trans  &trans  &trans
-&kp LG(A)              &kp F5  &kp F6   &kp F7   &kp F8                      &trans     &trans  &trans  &trans  &trans
-&mt LG(P) PRINTSCREEN  &kp F9  &kp F10  &kp F11  &kp F12                     &trans     &trans  &trans  &trans  &trans
-&trans                 &trans  &trans   &trans   &TD28    &TD29    &kp LEFT  &kp RIGHT  &trans  &trans  &trans  &trans
-                               &trans   &trans   &trans                      &trans     &trans  &trans
+&kp LA(LC(TAB))        &kp F1  &kp F2          &kp F3          &kp F4                                      &trans             &trans  &trans  &trans  &trans
+&kp LG(A)              &kp F5  &kp F6          &kp F7          &kp F8                                      &trans             &trans  &trans  &trans  &trans
+&mt LG(P) PRINTSCREEN  &kp F9  &kp F10         &kp F11         &kp F12                                     &trans             &trans  &trans  &trans  &trans
+&trans                 &trans  &trans          &mmv MOVE_UP    &TD28            &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans  &trans  &trans  &trans
+                               &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                             &trans             &trans  &trans
             >;
         };
     };
