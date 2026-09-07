@@ -486,11 +486,11 @@
 
         layer_0 {
             bindings = <
-&lt 1 Q  &lt 2 W  &kp E     &kp R     &kp T                             &kp Y   &kp U   &kp I   &lt 2 O  &lt 1 P
-&kp A    &kp S    &kp D     &kp F     &kp G                             &kp H   &kp J   &kp K   &kp L    &TD00
-&kp Z    &kp X    &kp C     &kp V     &kp B                             &kp N   &kp M   &TD01   &TD02    &TD03
-&trans   &trans   &trans    &kp UP    &trans     &kp SPACE    &kp BSPC  &trans  &trans  &trans  &trans   &trans
-                  &kp LEFT  &kp DOWN  &kp RIGHT                         &trans  &trans  &trans
+&lt 1 Q      &lt 2 W  &kp E     &kp R     &kp T                                        &kp Y        &kp U   &kp I   &lt 2 O  &lt 1 P
+&kp A        &kp S    &kp D     &kp F     &kp G                                        &kp H        &kp J   &kp K   &kp L    &TD00
+&mt LSHFT Z  &kp X    &kp C     &kp V     &kp B                                        &kp N        &kp M   &TD01   &TD02    &TD03
+&trans       &trans   &trans    &kp UP    &lt 2 LANG2  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 LANG1  &trans  &trans  &trans   &trans
+                      &kp LEFT  &kp DOWN  &kp RIGHT                                    &trans       &trans  &trans
             >;
         };
 
