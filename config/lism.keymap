@@ -93,8 +93,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD01";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&us04_ap>;
-
+            bindings = <&none>;
             tapping-term-ms = <300>;
         };
 
@@ -102,7 +101,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD02";
             #binding-cells = <0>;
-            bindings = <&kp DOT>, <&us03_se>;
+            bindings = <&kp COMMA>, <&us03_se>;
 
             tapping-term-ms = <300>;
         };
@@ -111,7 +110,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD03";
             #binding-cells = <0>;
-            bindings = <&mt RSHFT SLASH>, <&kp INT3>;
+            bindings = <&mt RSHFT DOT>, <&us04_ap>;
 
             tapping-term-ms = <300>;
         };
@@ -138,7 +137,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD06";
             #binding-cells = <0>;
-            bindings = <&mt GLOBE KP_PLUS>, <&kp PAGE_UP>;
+            bindings = <&kp SLASH>, <&kp INT3>;
 
             tapping-term-ms = <300>;
         };
@@ -728,10 +727,10 @@
 
         layer_0 {
             bindings = <
-&lt 2 Q      &lt 1 W   &kp E          &kp R       &lt 6 T                                      &lt 6 Y      &kp U       &kp I       &lt 1 O  &lt 2 L
-&lt 1 A      &lt 6 S   &mt LALT D     &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P    &TD01
-&mt LSHFT Z  &lt 6 X   &kp C          &kp V       &kp B                                        &TD00        &kp N       &kp M       &TD02    &TD03
-&kp LCTRL    &kp LGUI  &mt CAPS LALT  &kp UP      &lt 2 ENTER  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 TAB    &trans      &TD04       &TD05    &TD06
+&lt 2 Q      &lt 1 W   &kp E          &kp R       &lt 6 T                                      &lt 6 Y      &kp U       &kp I              &lt 1 O          &lt 2 L
+&lt 1 A      &lt 6 S   &mt LALT D     &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K         &kp P            &us00_bq
+&mt LSHFT Z  &lt 6 X   &kp C          &kp V       &kp B                                        &TD00        &kp N       &kp M              &TD02            &TD03
+&kp LCTRL    &kp LGUI  &mt CAPS LALT  &kp UP      &lt 2 ENTER  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 TAB    &trans      &kp RIGHT_BRACKET  &kp NON_US_HASH  &TD06
                        &kp LEFT       &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
             >;
         };
