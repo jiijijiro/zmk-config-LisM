@@ -213,8 +213,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD15";
             #binding-cells = <0>;
-            bindings = <&kp LC(A)>, <&mc09>;
-
+            bindings = <&none>;
             tapping-term-ms = <300>;
         };
 
@@ -222,8 +221,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD16";
             #binding-cells = <0>;
-            bindings = <&kp LC(S)>, <&mc10>;
-
+            bindings = <&none>;
             tapping-term-ms = <300>;
         };
 
@@ -231,8 +229,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD17";
             #binding-cells = <0>;
-            bindings = <&mt LC(LALT) LC(D)>, <&mc11>;
-
+            bindings = <&none>;
             tapping-term-ms = <300>;
         };
 
@@ -737,11 +734,11 @@
 
         layer_1 {
             bindings = <
-&mc01   &TD11   &mc03           &mc04           &TD14                                            &kp HOME         &kp END         &kp N7       &kp N8  &kp N9
-&TD15   &TD16   &TD17           &TD18           &mt LCTRL LC(PAGE_DOWN)                          &mt RCTRL PG_UP  &mt RGUI PG_DN  &mt RALT N4  &kp N5  &kp N6
-&TD20   &TD21   &TD22           &TD23           &kp LC(B)                                        &TD07            &TD08           &kp N1       &kp N2  &kp N3
-&trans  &trans  &trans          &mmv MOVE_UP    &kp LG(L)                &kp LA(F4)    &kp BSPC  &kp TAB          &trans          &kp N0       &TD09   &kp ENTER
-                &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                  &trans           &trans          &trans
+&mc01      &TD11      &mc03           &mc04           &TD14                                            &kp HOME         &kp END         &kp N7       &kp N8  &kp N9
+&kp LC(A)  &kp LC(S)  &mt LALT LC(D)  &TD18           &mt LCTRL LC(PAGE_DOWN)                          &mt RCTRL PG_UP  &mt RGUI PG_DN  &mt RALT N4  &kp N5  &kp N6
+&TD20      &TD21      &TD22           &TD23           &kp LC(B)                                        &TD07            &TD08           &kp N1       &kp N2  &kp N3
+&mc09      &mc10      &mc11           &mmv MOVE_UP    &kp LG(L)                &kp LA(F4)    &kp BSPC  &kp TAB          &trans          &kp N0       &TD09   &kp ENTER
+                      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                  &trans           &trans          &trans
             >;
         };
 
