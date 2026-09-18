@@ -692,18 +692,20 @@
         };
 
         combo26 {
-            bindings = <&kp APOS>;
+            bindings = <&none>;
             key-positions = <26 25>;
         };
 
         combo27 {
-            bindings = <&kp COMMA>;
-            key-positions = <27 28>;
+            bindings = <&bt BT_CLR>;
+            key-positions = <0 1 2>;
+            layers = <6>;
         };
 
         combo28 {
-            bindings = <&kp DOT>;
-            key-positions = <28 29>;
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <9 8 7>;
+            layers = <6>;
         };
 
         combo29 {
