@@ -754,10 +754,10 @@
 
         layer_3 {
             bindings = <
-&lt 5 Q      &lt 4 W      &kp E          &kp R        &lt 6 T                                      &lt 6 Y     &kp U        &kp I       &lt 4 O      &lt 5 L
-&lt 4 A      &mt GLOBE S  &mt LALT D     &mt LCTRL F  &mt LGUI G                                   &mt RGUI H  &mt RCTRL J  &mt RALT K  &mt GLOBE P  &TD01
-&mt LSHFT Z  &lt 6 X      &kp C          &kp V        &kp B                                        &TD00       &kp N        &kp M       &TD02        &TD03
-&kp LCTRL    &kp LGUI     &mt CAPS LALT  &kp UP       &lt 5 ENTER  &lt 4 SPACE    &lt 4 BACKSPACE  &lt 5 TAB   &trans       &TD04       &TD05        &TD06
+&lt 5 Q      &lt 4 W      &kp E          &kp R        &lt 6 T                                      &lt 6 Y     &kp U        &kp I              &lt 4 O          &lt 5 L
+&lt 4 A      &mt GLOBE S  &mt LALT D     &mt LCTRL F  &mt LGUI G                                   &mt RGUI H  &mt RCTRL J  &mt RALT K         &mt GLOBE P      &us00_bq
+&mt LSHFT Z  &lt 6 X      &kp C          &kp V        &kp B                                        &TD00       &kp N        &kp M              &TD02            &TD03
+&kp LCTRL    &kp LGUI     &mt CAPS LALT  &kp UP       &lt 5 ENTER  &lt 4 SPACE    &lt 4 BACKSPACE  &lt 5 TAB   &trans       &kp RIGHT_BRACKET  &kp NON_US_HASH  &TD06
                           &kp LEFT       &kp DOWN     &kp RIGHT                                    &trans      &trans       &trans
             >;
         };
