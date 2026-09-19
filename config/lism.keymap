@@ -725,7 +725,7 @@
 
         layer_0 {
             bindings = <
-&lt 2 Q      &lt 1 W   &kp E     &kp R     &kp T                                        &mc00        &kp Y   &kp U   &kp I  &lt 2 O
+&lt 2 Q      &lt 1 W   &kp E     &kp R     &lt 6 T                                      &mo 6        &kp Y   &kp U   &kp I  &lt 2 O
 &kp A        &lt 6 S   &kp D     &kp F     &kp G                                        &us00_bq     &kp H   &kp J   &kp K  &kp P
 &mt LSHFT Z  &lt 6 X   &kp C     &kp V     &kp B                                        &TD02        &TD03   &kp N   &kp M  &mt RSHFT L
 &kp LCTRL    &kp LGUI  &kp LALT  &kp UP    &lt 2 LANG2  &lt 1 SPACE    &lt 2 BACKSPACE  &lt 1 LANG1  &trans  &TD04   &TD05  &TD06
