@@ -765,11 +765,11 @@
 
         layer_4 {
             bindings = <
-&trans    &trans     &trans          &trans          &trans                             &kp HOME   &kp END    &kp N7  &kp N8  &lt 5 N9
-&kp A     &kp S      &trans          &trans          &trans                             &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
-&kp Z     &kp X      &kp C           &kp V           &kp B                              &TD07      &TD08      &kp N1  &kp N2  &mt RSHFT N3
-&kp LGUI  &kp LCTRL  &mt LALT CAPS   &mmv MOVE_UP    &trans           &trans    &trans  &trans     &trans     &kp N0  &TD09   &kp TAB
-                     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                    &trans     &trans     &trans
+&trans    &trans     &trans          &trans          &trans                                   &kp HOME       &kp END    &kp N7  &kp N8  &lt 5 N9
+&kp A     &kp S      &trans          &trans          &trans                                   &kp PG_UP      &kp PG_DN  &kp N4  &kp N5  &kp N6
+&kp Z     &kp X      &kp C           &kp V           &kp B                                    &TD07          &TD08      &kp N1  &kp N2  &mt RSHFT N3
+&kp LGUI  &kp LCTRL  &mt LALT CAPS   &mmv MOVE_UP    &iOS03           &iOS04    &kp LG(LEFT)  &kp LG(RIGHT)  &trans     &kp N0  &TD09   &kp TAB
+                     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                          &trans         &trans     &trans
             >;
         };
 
@@ -777,7 +777,7 @@
             bindings = <
 &iOS01                     &kp F1     &kp F2          &kp F3          &kp F4                             &trans         &trans  &trans  &trans  &trans
 &iOS02                     &kp F5     &kp F6          &kp F7          &kp F8                             &trans         &trans  &trans  &trans  &trans
-&mt LS(LG(N3)) LS(LG(N4))  &kp F9     &kp F10         &kp F11         &kp F12                            &trans         &trans  &trans  &trans  &trans
+&mt LG(LS(N3)) LG(LS(N4))  &kp F9     &kp F10         &kp F11         &kp F12                            &trans         &trans  &trans  &trans  &trans
 &kp LGUI                   &kp LCTRL  &mt LALT CAPS   &msc SCRL_UP    &kp LG(LC(Q))    &iOS00    &iOS00  &kp LG(LC(Q))  &trans  &trans  &trans  &trans
                                       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                    &trans         &trans  &trans
             >;
