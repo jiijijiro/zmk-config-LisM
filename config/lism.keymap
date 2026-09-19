@@ -371,7 +371,7 @@
         bt02: bt02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&out OUT_BLE &bt BT_SEL 2 &to 3>;
+            bindings = <&out OUT_BLE &bt BT_SEL 2 &to 0>;
             label = "BT02";
         };
 
@@ -699,25 +699,21 @@
         combo27 {
             bindings = <&bt BT_CLR>;
             key-positions = <0 1 2>;
-            layers = <6>;
         };
 
         combo28 {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <9 8 7>;
-            layers = <6>;
         };
 
         combo29 {
             bindings = <&bootloader>;
             key-positions = <20 21 22>;
-            layers = <6>;
         };
 
         combo30 {
             bindings = <&bootloader>;
             key-positions = <27 28 29>;
-            layers = <6>;
         };
     };
 
@@ -726,71 +722,31 @@
 
         layer_0 {
             bindings = <
-&lt 2 Q      &lt 1 W   &kp E          &kp R       &lt 6 T                                      &lt 6 Y      &kp U       &kp I              &lt 1 O          &lt 2 L
-&lt 1 A      &lt 6 S   &mt LALT D     &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K         &kp P            &us00_bq
-&mt LSHFT Z  &lt 6 X   &kp C          &kp V       &kp B                                        &TD00        &kp N       &kp M              &TD02            &TD03
-&kp LCTRL    &kp LGUI  &mt CAPS LALT  &kp UP      &lt 2 ENTER  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 TAB    &trans      &kp RIGHT_BRACKET  &kp NON_US_HASH  &TD06
-                       &kp LEFT       &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
+&kp Q      &kp W     &kp E          &kp R     &kp T                                 &trans       &kp Y   &kp U   &kp I   &kp O
+&kp A      &kp S     &kp D          &kp F     &kp G                                 &trans       &kp H   &kp J   &kp K   &kp P
+&kp Z      &kp X     &kp C          &kp V     &kp B                                 &trans       &trans  &kp N   &kp M   &kp L
+&kp LCTRL  &kp LGUI  &mt LALT CAPS  &kp UP    &lt 2 LANG2  &lt 1 SPACE    &kp BSPC  &lt 1 LANG1  &trans  &trans  &trans  &trans
+                     &kp LEFT       &kp DOWN  &kp RIGHT                             &trans       &trans  &trans
             >;
         };
 
         layer_1 {
             bindings = <
-&mc01      &TD11      &mc03           &mc04           &TD14                                            &kp HOME         &kp END         &kp N7       &kp N8  &kp N9
-&kp LC(A)  &kp LC(S)  &mt LALT LC(D)  &TD18           &mt LCTRL LC(PAGE_DOWN)                          &mt RCTRL PG_UP  &mt RGUI PG_DN  &mt RALT N4  &kp N5  &kp N6
-&TD20      &TD21      &TD22           &TD23           &kp LC(B)                                        &TD07            &TD08           &kp N1       &kp N2  &kp N3
-&mc09      &mc10      &mc11           &mmv MOVE_UP    &kp LG(L)                &kp LA(F4)    &kp BSPC  &kp TAB          &trans          &kp N0       &TD09   &kp ENTER
-                      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                  &trans           &trans          &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans                    &trans  &trans  &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&kp LA(LC(TAB))        &kp F1  &kp F2          &kp F3          &kp F4                                      &kp LC(L)          &kp LC(LS(O))    &kp HOME          &mt LG(L) LC(T)  &mt LA(F4) LC(W)
-&kp LG(A)              &kp F5  &kp F6          &kp F7          &kp F8                                      &kp LA(LEFT)       &kp LS(LC(TAB))  &kp END           &kp LC(TAB)      &kp LC(R)
-&mt LG(P) PRINTSCREEN  &kp F9  &kp F10         &kp F11         &kp F12                                     &kp LC(F)          &kp LC(G)        &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp F11
-&trans                 &trans  &trans          &msc SCRL_UP    &TD28            &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans           &trans            &trans           &trans
-                               &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                             &trans             &trans           &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&lt 5 Q      &lt 4 W      &kp E          &kp R        &lt 6 T                                      &lt 6 Y     &kp U        &kp I              &lt 4 O          &lt 5 L
-&lt 4 A      &mt GLOBE S  &mt LALT D     &mt LCTRL F  &mt LGUI G                                   &mt RGUI H  &mt RCTRL J  &mt RALT K         &mt GLOBE P      &us00_bq
-&mt LSHFT Z  &lt 6 X      &kp C          &kp V        &kp B                                        &TD00       &kp N        &kp M              &TD02            &TD03
-&kp LCTRL    &kp LGUI     &mt CAPS LALT  &kp UP       &lt 5 ENTER  &lt 4 SPACE    &lt 4 BACKSPACE  &lt 5 TAB   &trans       &kp RIGHT_BRACKET  &kp NON_US_HASH  &TD06
-                          &kp LEFT       &kp DOWN     &kp RIGHT                                    &trans      &trans       &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans     &trans           &trans          &trans          &trans                               &kp HOME        &kp END          &kp N7       &kp N8        &kp N9
-&kp LG(A)  &mt GLOBE LG(S)  &mt LALT LG(D)  &kp LCTRL       &kp LGUI                             &mt RGUI PG_UP  &mt RCTRL PG_DN  &mt RALT N4  &mt GLOBE N5  &kp N6
-&kp LG(Z)  &kp LG(X)        &kp LG(C)       &kp LG(V)       &kp LG(B)                            &TD07           &TD08            &kp N1       &kp N2        &kp N3
-&trans     &trans           &trans          &mmv MOVE_UP    &kp LG(LC(Q))    &iOS00    &kp BSPC  &kp TAB         &trans           &kp N0       &TD09         &kp ENTER
-                            &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                      &trans          &trans           &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&iOS01                     &kp F1  &kp F2          &kp F3          &kp F4                                   &kp LG(L)              &kp LA(LG(B))    &kp LG(UP)    &mt LG(LC(Q)) LG(T)  &mt LG(H) LG(W)
-&iOS02                     &kp F5  &kp F6          &kp F7          &kp F8                                   &kp LG(RIGHT_BRACKET)  &kp LS(LC(TAB))  &kp LG(DOWN)  &kp LC(TAB)          &kp LG(R)
-&mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10         &kp F11         &kp F12                                  &kp LG(F)              &kp LG(G)        &trans        &trans               &trans
-&trans                     &trans  &trans          &msc SCRL_UP    &iOS03           &iOS04    &kp LG(LEFT)  &kp LG(RIGHT)          &trans           &trans        &trans               &trans
-                                   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                          &trans                 &trans           &trans
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-&out OUT_USB  &bt04   &bt03         &bt02         &trans                        &trans  &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
-&kp LG(T)     &trans  &trans        &trans        &trans                        &trans  &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
-&trans        &trans  &trans        &trans        &trans                        &trans  &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
-&trans        &trans  &trans        &kp C_VOL_UP  &bt01         &bt00    &bt00  &bt01   &trans  &trans      &trans            &trans
-                      &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans                    &trans  &trans  &trans
             >;
         };
     };
