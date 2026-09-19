@@ -775,11 +775,11 @@
 
         layer_5 {
             bindings = <
-&trans    &kp F1     &kp F2          &kp F3          &kp F4                             &trans  &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
-&trans    &kp F5     &kp F6          &kp F7          &kp F8                             &trans  &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
-&trans    &kp F9     &kp F10         &kp F11         &kp F12                            &trans  &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
-&kp LGUI  &kp LCTRL  &mt LALT CAPS   &msc SCRL_UP    &trans           &trans    &trans  &trans  &trans  &trans      &trans            &trans
-                     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                    &trans  &trans  &trans
+&iOS01                     &kp F1     &kp F2          &kp F3          &kp F4                             &trans         &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&iOS02                     &kp F5     &kp F6          &kp F7          &kp F8                             &trans         &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&mt LS(LG(N3)) LS(LG(N4))  &kp F9     &kp F10         &kp F11         &kp F12                            &trans         &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&kp LGUI                   &kp LCTRL  &mt LALT CAPS   &msc SCRL_UP    &kp LG(LC(Q))    &iOS00    &iOS00  &kp LG(LC(Q))  &trans  &trans      &trans            &trans
+                                      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                    &trans         &trans  &trans
             >;
         };
 
