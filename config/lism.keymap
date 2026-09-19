@@ -742,11 +742,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans                    &trans  &trans  &trans
+&kp LA(LC(TAB))        &kp F1    &kp F2         &kp F3   &kp F4                     &trans  &trans  &kp N6  &kp N8  &kp N9
+&kp LG(A)              &kp F5    &kp F6         &kp F7   &kp F8                     &trans  &trans  &kp N4  &kp N5  &trans
+&mt LG(P) PRINTSCREEN  &kp F9    &kp F10        &kp F11  &kp F12                    &trans  &trans  &kp N1  &kp N2  &kp N3
+&kp LCTRL              &kp LGUI  &mt LALT CAPS  &trans   &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans         &trans   &trans                     &trans  &trans  &trans
             >;
         };
     };
