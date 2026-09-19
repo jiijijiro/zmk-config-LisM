@@ -725,11 +725,11 @@
 
         layer_0 {
             bindings = <
-&lt 2 Q      &lt 1 W   &kp E          &kp R     &kp T                                 &mc00        &kp Y   &kp U   &kp I  &lt 2 O
-&kp A        &kp S     &kp D          &kp F     &kp G                                 &us00_bq     &kp H   &kp J   &kp K  &kp P
-&mt LSHFT Z  &kp X     &kp C          &kp V     &kp B                                 &TD02        &TD03   &kp N   &kp M  &mt RSHFT L
-&kp LCTRL    &kp LGUI  &mt LALT CAPS  &kp UP    &lt 2 LANG2  &lt 1 SPACE    &kp BSPC  &lt 1 LANG1  &trans  &TD04   &TD05  &TD06
-                       &kp LEFT       &kp DOWN  &kp RIGHT                             &trans       &trans  &trans
+&lt 2 Q      &lt 1 W   &kp E          &kp R     &kp T                                        &mc00        &kp Y   &kp U   &kp I  &lt 2 O
+&kp A        &kp S     &kp D          &kp F     &kp G                                        &us00_bq     &kp H   &kp J   &kp K  &kp P
+&mt LSHFT Z  &kp X     &kp C          &kp V     &kp B                                        &TD02        &TD03   &kp N   &kp M  &mt RSHFT L
+&kp LCTRL    &kp LGUI  &mt LALT CAPS  &kp UP    &lt 2 LANG2  &lt 1 SPACE    &lt 2 BACKSPACE  &lt 1 LANG1  &trans  &TD04   &TD05  &TD06
+                       &kp LEFT       &kp DOWN  &kp RIGHT                                    &trans       &trans  &trans
             >;
         };
 
@@ -745,21 +745,21 @@
 
         layer_2 {
             bindings = <
-&kp LA(LC(TAB))        &kp F1    &kp F2          &kp F3          &kp F4                                     &trans     &trans  &trans  &trans  &trans
-&kp LG(A)              &kp F5    &kp F6          &kp F7          &kp F8                                     &trans     &trans  &trans  &trans  &trans
-&mt LG(P) PRINTSCREEN  &kp F9    &kp F10         &kp F11         &kp F12                                    &trans     &trans  &trans  &trans  &trans
-&kp LCTRL              &kp LGUI  &mt LALT CAPS   &msc SCRL_UP    &kp LG(L)        &kp LA(F4)    &kp LG(F4)  &kp LG(L)  &trans  &trans  &trans  &trans
-                                 &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                            &trans     &trans  &trans
+&kp LA(LC(TAB))        &kp F1    &kp F2          &kp F3          &kp F4                                     &trans        &trans  &trans  &trans  &trans
+&kp LG(A)              &kp F5    &kp F6          &kp F7          &kp F8                                     &kp LA(LEFT)  &trans  &trans  &trans  &trans
+&mt LG(P) PRINTSCREEN  &kp F9    &kp F10         &kp F11         &kp F12                                    &trans        &trans  &trans  &trans  &trans
+&kp LCTRL              &kp LGUI  &mt LALT CAPS   &msc SCRL_UP    &kp LG(L)        &kp LA(F4)    &kp LG(F4)  &kp LG(L)     &trans  &trans  &trans  &trans
+                                 &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                            &trans        &trans  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&lt 5 Q      &lt 4 W    &kp E          &kp R     &kp T                                 &mc00        &kp Y   &kp U   &kp I  &lt 5 O
-&kp A        &kp S      &kp D          &kp F     &kp G                                 &us00_bq     &kp H   &kp J   &kp K  &kp P
-&mt LSHFT Z  &kp X      &kp C          &kp V     &kp B                                 &TD02        &TD03   &kp N   &kp M  &mt RSHFT L
-&kp LGUI     &kp LCTRL  &mt LALT CAPS  &kp UP    &lt 5 LANG2  &lt 4 SPACE    &kp BSPC  &lt 4 LANG1  &trans  &TD04   &TD05  &TD06
-                        &kp LEFT       &kp DOWN  &kp RIGHT                             &trans       &trans  &trans
+&lt 5 Q      &lt 4 W    &kp E          &kp R     &kp T                                        &mc00        &kp Y   &kp U   &kp I  &lt 5 O
+&kp A        &kp S      &kp D          &kp F     &kp G                                        &us00_bq     &kp H   &kp J   &kp K  &kp P
+&mt LSHFT Z  &kp X      &kp C          &kp V     &kp B                                        &TD02        &TD03   &kp N   &kp M  &mt RSHFT L
+&kp LGUI     &kp LCTRL  &mt LALT CAPS  &kp UP    &lt 5 LANG2  &lt 4 SPACE    &lt 2 BACKSPACE  &lt 4 LANG1  &trans  &TD04   &TD05  &TD06
+                        &kp LEFT       &kp DOWN  &kp RIGHT                                    &trans       &trans  &trans
             >;
         };
 
@@ -775,11 +775,11 @@
 
         layer_5 {
             bindings = <
-&iOS01                     &kp F1     &kp F2          &kp F3          &kp F4                             &trans         &trans  &trans  &trans  &trans
-&iOS02                     &kp F5     &kp F6          &kp F7          &kp F8                             &trans         &trans  &trans  &trans  &trans
-&mt LG(LS(N3)) LG(LS(N4))  &kp F9     &kp F10         &kp F11         &kp F12                            &trans         &trans  &trans  &trans  &trans
-&kp LGUI                   &kp LCTRL  &mt LALT CAPS   &msc SCRL_UP    &kp LG(LC(Q))    &iOS00    &iOS00  &kp LG(LC(Q))  &trans  &trans  &trans  &trans
-                                      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                    &trans         &trans  &trans
+&iOS01                     &kp F1     &kp F2          &kp F3          &kp F4                             &trans                 &trans  &trans  &trans  &trans
+&iOS02                     &kp F5     &kp F6          &kp F7          &kp F8                             &kp LG(RIGHT_BRACKET)  &trans  &trans  &trans  &trans
+&mt LG(LS(N3)) LG(LS(N4))  &kp F9     &kp F10         &kp F11         &kp F12                            &trans                 &trans  &trans  &trans  &trans
+&kp LGUI                   &kp LCTRL  &mt LALT CAPS   &msc SCRL_UP    &kp LG(LC(Q))    &iOS00    &iOS00  &kp LG(LC(Q))          &trans  &trans  &trans  &trans
+                                      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                    &trans                 &trans  &trans
             >;
         };
 
