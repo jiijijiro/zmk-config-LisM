@@ -575,17 +575,17 @@
         };
 
         combo02 {
-            bindings = <&kp LANG2>;
+            bindings = <&kp ENTER>;
             key-positions = <34 35>;
         };
 
         combo03 {
-            bindings = <&none>;
+            bindings = <&mc00>;
             key-positions = <8 9>;
         };
 
         combo04 {
-            bindings = <&kp LANG1>;
+            bindings = <&kp TAB>;
             key-positions = <36 37>;
         };
 
@@ -626,7 +626,7 @@
 
         combo12 {
             bindings = <&kp ENTER>;
-            key-positions = <19 29>;
+            key-positions = <29 41>;
         };
 
         combo13 {
@@ -695,26 +695,21 @@
         };
 
         combo26 {
-            bindings = <&none>;
-            key-positions = <26 25>;
-        };
-
-        combo27 {
             bindings = <&bt BT_CLR>;
             key-positions = <0 1 2>;
         };
 
-        combo28 {
+        combo27 {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <9 8 7>;
+            key-positions = <7 8 9>;
         };
 
-        combo29 {
+        combo28 {
             bindings = <&bootloader>;
             key-positions = <20 21 22>;
         };
 
-        combo30 {
+        combo29 {
             bindings = <&bootloader>;
             key-positions = <27 28 29>;
         };
