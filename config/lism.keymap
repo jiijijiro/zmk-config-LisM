@@ -367,7 +367,7 @@
         bt01: bt01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&out OUT_BLE &bt BT_SEL 1 &to 0>;
+            bindings = <&out OUT_BLE &bt BT_SEL 1 &to 3>;
             label = "BT01";
         };
 
@@ -755,31 +755,31 @@
 
         layer_3 {
             bindings = <
-&lt 2 Q      &lt 1 W   &kp E          &kp R     &kp T                                 &mc00        &kp Y   &kp U   &kp I  &lt 2 O
-&kp A        &kp S     &kp D          &kp F     &kp G                                 &us00_bq     &kp H   &kp J   &kp K  &kp P
-&mt LSHFT Z  &kp X     &kp C          &kp V     &kp B                                 &TD02        &TD03   &kp N   &kp M  &mt RSHFT L
-&kp LCTRL    &kp LGUI  &mt LALT CAPS  &kp UP    &lt 2 LANG2  &lt 1 SPACE    &kp BSPC  &lt 1 LANG1  &trans  &TD04   &TD05  &TD06
-                       &kp LEFT       &kp DOWN  &kp RIGHT                             &trans       &trans  &trans
+&lt 5 Q      &lt 4 W    &kp E          &kp R     &kp T                                 &mc00        &kp Y   &kp U   &kp I  &lt 5 O
+&kp A        &kp S      &kp D          &kp F     &kp G                                 &us00_bq     &kp H   &kp J   &kp K  &kp P
+&mt LSHFT Z  &kp X      &kp C          &kp V     &kp B                                 &TD02        &TD03   &kp N   &kp M  &mt RSHFT L
+&kp LGUI     &kp LCTRL  &mt LALT CAPS  &kp UP    &lt 5 LANG2  &lt 4 SPACE    &kp BSPC  &lt 4 LANG1  &trans  &TD04   &TD05  &TD06
+                        &kp LEFT       &kp DOWN  &kp RIGHT                             &trans       &trans  &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&TD10      &TD11      &mc02           &mc03           &TD14                                       &kp HOME           &kp END    &kp N7  &kp N8  &lt 2 N9
-&TD15      &TD16      &TD17           &TD18           &kp LC(PG_DN)                               &kp PG_UP          &kp PG_DN  &kp N4  &kp N5  &kp N6
-&TD20      &kp LC(X)  &kp LC(C)       &TD23           &kp LC(B)                                   &TD07              &TD08      &kp N1  &kp N2  &mt RSHFT N3
-&kp LCTRL  &kp LGUI   &mt LALT CAPS   &mmv MOVE_UP    &TD28            &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans     &kp N0  &TD09   &kp TAB
-                      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                             &trans             &trans     &trans
+&trans    &trans     &trans          &trans          &trans                             &kp HOME   &kp END    &kp N7  &kp N8  &lt 5 N9
+&kp A     &kp S      &trans          &trans          &trans                             &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
+&kp Z     &kp X      &kp C           &kp V           &kp B                              &TD07      &TD08      &kp N1  &kp N2  &mt RSHFT N3
+&kp LGUI  &kp LCTRL  &mt LALT CAPS   &mmv MOVE_UP    &trans           &trans    &trans  &trans     &trans     &kp N0  &TD09   &kp TAB
+                     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                    &trans     &trans     &trans
             >;
         };
 
         layer_5 {
             bindings = <
-&kp LA(LC(TAB))        &kp F1    &kp F2          &kp F3          &kp F4                                     &trans     &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
-&kp LG(A)              &kp F5    &kp F6          &kp F7          &kp F8                                     &trans     &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
-&mt LG(P) PRINTSCREEN  &kp F9    &kp F10         &kp F11         &kp F12                                    &trans     &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
-&kp LCTRL              &kp LGUI  &mt LALT CAPS   &msc SCRL_UP    &kp LG(L)        &kp LA(F4)    &kp LG(F4)  &kp LG(L)  &trans  &trans      &trans            &trans
-                                 &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                            &trans     &trans  &trans
+&trans    &kp F1     &kp F2          &kp F3          &kp F4                             &trans  &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&trans    &kp F5     &kp F6          &kp F7          &kp F8                             &trans  &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&trans    &kp F9     &kp F10         &kp F11         &kp F12                            &trans  &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&kp LGUI  &kp LCTRL  &mt LALT CAPS   &msc SCRL_UP    &trans           &trans    &trans  &trans  &trans  &trans      &trans            &trans
+                     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                    &trans  &trans  &trans
             >;
         };
 
