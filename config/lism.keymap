@@ -755,7 +755,7 @@
 
         layer_3 {
             bindings = <
-&lt 5 Q      &lt 4 W      &kp E     &kp R     &kp T                                        &mc00        &kp Y   &kp U   &kp I  &lt 5 O
+&lt 5 Q      &lt 4 W      &kp E     &kp R     &lt 6 T                                      &mo 6        &kp Y   &kp U   &kp I  &lt 5 O
 &kp A        &mt GLOBE S  &kp D     &kp F     &kp G                                        &us00_bq     &kp H   &kp J   &kp K  &kp P
 &mt LSHFT Z  &lt 6 X      &kp C     &kp V     &kp B                                        &TD02        &TD03   &kp N   &kp M  &mt RSHFT L
 &kp LGUI     &kp LCTRL    &kp LALT  &kp UP    &lt 5 LANG2  &lt 4 SPACE    &lt 2 BACKSPACE  &lt 4 LANG1  &trans  &TD04   &TD05  &TD06
@@ -785,11 +785,11 @@
 
         layer_6 {
             bindings = <
-&trans     &trans  &trans  &trans  &trans                    &trans  &trans  &kp N6  &kp N8  &kp N9
-&kp LG(T)  &trans  &trans  &trans  &trans                    &trans  &trans  &kp N4  &kp N5  &trans
-&trans     &trans  &trans  &trans  &trans                    &trans  &trans  &kp N1  &trans  &kp N3
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                   &trans  &trans  &trans                    &trans  &trans  &trans
+&trans     &bt04   &bt03   &bt02   &trans                  &trans  &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&kp LG(T)  &trans  &trans  &trans  &trans                  &trans  &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&trans     &trans  &trans  &trans  &trans                  &trans  &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&trans     &trans  &trans  &trans  &bt01   &bt00    &bt00  &bt01   &trans  &trans      &trans            &trans
+                   &trans  &trans  &trans                  &trans  &trans  &trans
             >;
         };
     };
