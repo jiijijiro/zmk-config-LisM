@@ -785,11 +785,11 @@
 
         layer_6 {
             bindings = <
-&trans     &bt04   &bt03   &bt02   &trans                  &trans  &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
-&kp LG(T)  &trans  &trans  &trans  &trans                  &trans  &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
-&trans     &trans  &trans  &trans  &trans                  &trans  &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
-&trans     &trans  &trans  &trans  &bt01   &bt00    &bt00  &bt01   &trans  &trans      &trans            &trans
-                   &trans  &trans  &trans                  &trans  &trans  &trans
+&trans     &bt04   &bt03         &bt02         &trans                        &trans  &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&kp LG(T)  &trans  &trans        &trans        &trans                        &trans  &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&trans     &trans  &trans        &trans        &trans                        &trans  &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&trans     &trans  &trans        &kp C_VOL_UP  &bt01         &bt00    &bt00  &bt01   &trans  &trans      &trans            &trans
+                   &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                  &trans  &trans  &trans
             >;
         };
     };
