@@ -583,7 +583,7 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &kp HOME   &kp END          &kp N7       &kp N8       &lt 2 N9
+&TD10   &TD11   &mc02   &TD03   &TD14                      &kp HOME   &kp END          &kp N7       &kp N8       &lt 2 N9
 &kp A   &kp S   &trans  &trans  &trans                     &kp PG_UP  &mt RCTRL PG_DN  &mt RGUI N4  &mt RALT N5  &kp N6
 &kp Z   &kp X   &kp C   &kp V   &kp B                      &TD08      &TD08            &kp N1       &kp N2       &mt RSHFT N3
 &trans  &trans  &trans  &trans  &trans  &trans    &kp TAB  &kp BSPC   &trans           &kp N0       &TD09        &kp ENTER
@@ -603,21 +603,21 @@
 
         layer_3 {
             bindings = <
-&lt 2 Q      &lt 1 W  &kp E       &kp R       &lt 0 T                                &mo 0            &kp Y        &kp U       &kp I       &lt 2 O
-&kp A        &kp S    &mt LALT D  &mt LGUI F  &mt LCTRL G                            &us_bq           &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P
-&mt LSHFT Z  &lt 2 X  &kp C       &kp V       &kp B                                  &TD02            &TD03        &kp N       &kp M       &mt RSHFT L
-&trans       &trans   &trans      &trans      &lt 2 ENTER  &lt 1 SPACE    &lt 2 TAB  &lt 1 BACKSPACE  &trans       &TD04       &TD05       &TD06
-                      &trans      &trans      &trans                                 &trans           &trans       &trans
+&lt 5 Q      &lt 4 W      &kp E       &kp R        &lt 6 T                                &mo 6            &kp Y       &kp U        &kp I       &lt 5 O
+&kp A        &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                             &us_bq           &mt RGUI H  &mt RCTRL J  &mt RALT K  &mt GLOBE P
+&mt LSHFT Z  &lt 5 X      &kp C       &kp V        &kp B                                  &TD02            &TD03       &kp N        &kp M       &mt RSHFT L
+&trans       &trans       &trans      &trans       &lt 5 ENTER  &lt 4 SPACE    &lt 5 TAB  &lt 4 BACKSPACE  &trans      &TD04        &TD05       &TD06
+                          &trans      &trans       &trans                                 &trans           &trans      &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &kp HOME   &kp END          &kp N7       &kp N8       &lt 2 N9
-&kp A   &kp S   &trans  &trans  &trans                     &kp PG_UP  &mt RCTRL PG_DN  &mt RGUI N4  &mt RALT N5  &kp N6
-&kp Z   &kp X   &kp C   &kp V   &kp B                      &TD08      &TD08            &kp N1       &kp N2       &mt RSHFT N3
-&trans  &trans  &trans  &trans  &trans  &trans    &kp TAB  &kp BSPC   &trans           &kp N0       &TD09        &kp ENTER
-                &trans  &trans  &trans                     &trans     &trans           &trans
+&trans  &trans  &trans  &trans  &trans                     &kp HOME   &kp END         &kp N7        &kp N8       &lt 5 N9
+&kp A   &kp S   &trans  &trans  &trans                     &kp PG_UP  &mt RGUI PG_DN  &mt RCTRL N4  &mt RALT N5  &mt GLOBE N6
+&kp Z   &kp X   &kp C   &kp V   &kp B                      &TD08      &TD08           &kp N1        &kp N2       &mt RSHFT N3
+&trans  &trans  &trans  &trans  &trans  &trans    &kp TAB  &kp BSPC   &trans          &kp N0        &TD09        &kp ENTER
+                &trans  &trans  &trans                     &trans     &trans          &trans
             >;
         };
 
