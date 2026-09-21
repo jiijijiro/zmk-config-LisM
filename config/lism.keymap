@@ -620,11 +620,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &kp HOME   &kp END         &kp N7        &kp N8       &lt 5 N9
-&kp A   &kp S   &trans  &trans  &trans                     &kp PG_UP  &mt RGUI PG_DN  &mt RCTRL N4  &mt RALT N5  &mt GLOBE N6
-&kp Z   &kp X   &kp C   &kp V   &kp B                      &TD08      &TD08           &kp N1        &kp N2       &mt RSHFT N3
-&trans  &trans  &trans  &trans  &trans  &trans    &kp TAB  &kp BSPC   &trans          &kp N0        &TD09        &kp ENTER
-                &trans  &trans  &trans                     &trans     &trans          &trans
+&trans           &trans     &trans     &trans     &trans                            &kp HOME   &kp END         &kp N7        &kp N8       &lt 5 N9
+&kp LG(A)        &kp LG(S)  &kp LALT   &kp LCTRL  &kp LGUI                          &kp PG_UP  &mt RGUI PG_DN  &mt RCTRL N4  &mt RALT N5  &mt GLOBE N6
+&mt LSHFT LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                         &TD08      &TD08           &kp N1        &kp N2       &mt RSHFT N3
+&trans           &trans     &trans     &trans     &kp LC(LG(Q))  &iOS00    &kp TAB  &kp BSPC   &trans          &kp N0        &TD09        &kp ENTER
+                            &trans     &trans     &trans                            &trans     &trans          &trans
             >;
         };
 
