@@ -540,6 +540,13 @@
 
             label = "IOS04";
         };
+
+        mc000: mc000 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB1 &mkp MB1>;
+            label = "MC000";
+        };
     };
 
     keymap {
