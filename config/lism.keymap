@@ -600,9 +600,9 @@
 
         layer_2 {
             bindings = <
-&kp LC(LA(TAB))        &kp F1  &kp F2   &kp F3   &kp F4                              &kp LG(LS(TAB))    &kp LG(TAB)  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
-&kp LG(A)              &kp F5  &kp F6   &kp F7   &kp F8                              &kp LA(LEFT)       &kp LG(T)    &kp LS(N4)  &kp LS(N5)        &kp EQUAL
-&mt LG(P) PRINTSCREEN  &kp F9  &kp F10  &kp F11  &kp F12                             &kp F3             &kp LG(W)    &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&kp LC(LA(TAB))        &kp F1  &kp F2   &kp F3   &kp F4                              &kp LC(LS(TAB))    &kp LC(TAB)  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&kp LG(A)              &kp F5  &kp F6   &kp F7   &kp F8                              &kp LA(LEFT)       &kp LC(T)    &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&mt LG(P) PRINTSCREEN  &kp F9  &kp F10  &kp F11  &kp F12                             &kp F3             &kp LC(W)    &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
 &trans                 &trans  &trans   &trans   &TD28    &TD29    &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))  &trans       &trans      &trans            &trans
                                &trans   &trans   &trans                              &trans             &trans       &trans
             >;
@@ -630,11 +630,11 @@
 
         layer_5 {
             bindings = <
-&iOS01                     &kp F1  &kp F2   &kp F3   &kp F4                           &trans         &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
-&iOS02                     &kp F5  &kp F6   &kp F7   &kp F8                           &trans         &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
-&mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10  &kp F11  &kp F12                          &trans         &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
-&trans                     &trans  &trans   &trans   &iOS03   &iOS04    &kp LG(LEFT)  &kp LG(RIGHT)  &trans  &trans      &trans            &trans
-                                   &trans   &trans   &trans                           &trans         &trans  &trans
+&iOS01                     &kp F1  &kp F2   &kp F3   &kp F4                           &kp LC(LS(TAB))        &kp LC(TAB)  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&iOS02                     &kp F5  &kp F6   &kp F7   &kp F8                           &kp LA(RIGHT_BRACKET)  &trans       &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&mt LG(LS(N3)) LG(LS(N4))  &kp F9  &kp F10  &kp F11  &kp F12                          &trans                 &trans       &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&trans                     &trans  &trans   &trans   &iOS03   &iOS04    &kp LG(LEFT)  &kp LG(RIGHT)          &trans       &trans      &trans            &trans
+                                   &trans   &trans   &trans                           &trans                 &trans       &trans
             >;
         };
 
