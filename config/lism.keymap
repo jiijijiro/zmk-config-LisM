@@ -554,21 +554,21 @@
 
         layer_0 {
             bindings = <
-&kp Q   &kp W   &kp E   &kp R   &kp T                          &trans    &kp Y   &kp U   &kp I   &kp O
-&kp A   &kp S   &kp D   &kp F   &kp G                          &trans    &kp H   &kp J   &kp K   &kp P
-&kp Z   &kp X   &kp C   &kp V   &kp B                          &trans    &trans  &kp N   &kp M   &kp L
-&trans  &trans  &trans  &trans  &kp RET  &kp SPACE    &kp TAB  &kp BSPC  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans                         &trans    &trans  &trans
+&lt 2 Q  &kp W   &kp E   &kp R   &kp T                                  &mo 0            &kp Y   &kp U   &kp I  &lt 2 O
+&kp A    &kp S   &kp D   &kp F   &kp G                                  &us_bq           &kp H   &kp J   &kp K  &kp P
+&kp Z    &kp X   &kp C   &kp V   &kp B                                  &TD02            &TD03   &kp N   &kp M  &kp L
+&trans   &trans  &trans  &trans  &lt 2 ENTER  &lt 1 SPACE    &lt 2 TAB  &lt 1 BACKSPACE  &trans  &TD04   &TD05  &TD06
+                 &trans  &trans  &trans                                 &trans           &trans  &trans
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp HOME   &kp END    &kp N7  &kp N8  &kp N9
-&kp A   &kp S   &trans  &trans  &trans                    &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
-&kp Z   &kp X   &kp C   &kp V   &kp B                     &trans     &trans     &kp N1  &kp N2  &kp N3
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &kp N0  &trans  &kp TAB
-                &trans  &trans  &trans                    &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans                     &kp HOME   &kp END    &kp N7  &kp N8  &kp N9
+&kp A   &kp S   &trans  &trans  &trans                     &kp PG_UP  &kp PG_DN  &kp N4  &kp N5  &kp N6
+&kp Z   &kp X   &kp C   &kp V   &kp B                      &TD08      &TD08      &kp N1  &kp N2  &kp N3
+&trans  &trans  &trans  &trans  &kp L   &kp F4    &kp TAB  &kp BSPC   &trans     &kp N0  &TD09   &kp ENTER
+                &trans  &trans  &trans                     &trans     &trans     &trans
             >;
         };
 
