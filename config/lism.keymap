@@ -581,7 +581,7 @@
         layer_0 {
             bindings = <
 &lt 2 Q      &lt 1 W  &kp E       &kp R       &lt 6 T                                &mo 6            &kp Y        &kp U       &kp I       &lt 2 O
-&kp A        &lt 6 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                            &us_bq           &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P
+&lt 6 A      &lt 6 S  &mt LALT D  &mt LGUI F  &mt LCTRL G                            &us_bq           &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P
 &mt LSHFT Z  &lt 2 X  &kp C       &kp V       &kp B                                  &TD02            &TD03        &kp N       &kp M       &mt RSHFT L
 &kp LCTRL    &trans   &trans      &trans      &lt 2 ENTER  &lt 1 SPACE    &lt 2 TAB  &lt 1 BACKSPACE  &trans       &TD04       &TD05       &TD06
                       &trans      &trans      &trans                                 &trans           &trans       &trans
@@ -611,7 +611,7 @@
         layer_3 {
             bindings = <
 &lt 5 Q      &lt 4 W      &kp E       &kp R        &lt 6 T                                &mo 6            &kp Y       &kp U        &kp I       &lt 5 O
-&kp A        &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                             &us_bq           &mt RGUI H  &mt RCTRL J  &mt RALT K  &mt GLOBE P
+&lt 6 A      &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                             &us_bq           &mt RGUI H  &mt RCTRL J  &mt RALT K  &mt GLOBE P
 &mt LSHFT Z  &lt 5 X      &kp C       &kp V        &kp B                                  &TD02            &TD03       &kp N        &kp M       &mt RSHFT L
 &trans       &trans       &trans      &trans       &lt 5 ENTER  &lt 4 SPACE    &lt 5 TAB  &lt 4 BACKSPACE  &trans      &TD04        &TD05       &TD06
                           &trans      &trans       &trans                                 &trans           &trans      &trans
@@ -640,11 +640,11 @@
 
         layer_6 {
             bindings = <
-&trans     &bt04   &bt03   &bt02   &trans                  &trans  &bt02   &bt03   &bt04   &trans
-&kp LG(T)  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans  &bt01   &bt00    &bt00  &bt01   &trans  &trans  &trans  &trans
-                   &trans  &trans  &trans                  &trans  &trans  &trans
+&trans       &bt04         &bt03         &bt02   &bt BT_CLR                  &bt BT_CLR_ALL  &bt02   &bt03   &bt04   &trans
+&kp LG(T)    &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans                      &trans          &trans  &trans  &trans  &trans
+&trans       &kp C_BRI_DN  &kp C_BRI_UP  &trans  &trans                      &trans          &trans  &trans  &trans  &trans
+&bootloader  &trans        &trans        &trans  &bt01       &bt00    &bt00  &bt01           &trans  &trans  &trans  &bootloader
+                           &trans        &trans  &trans                      &trans          &trans  &trans
             >;
         };
     };
