@@ -592,6 +592,21 @@
             key-positions = <20 21>;
             layers = <3>;
         };
+
+        combo03 {
+            bindings = <&kp LANG2>;
+            key-positions = <34 35>;
+        };
+
+        combo04 {
+            bindings = <&kp LANG1>;
+            key-positions = <36 37>;
+        };
+
+        combo05 {
+            bindings = <&mc00>;
+            key-positions = <8 9>;
+        };
     };
 
     keymap {
