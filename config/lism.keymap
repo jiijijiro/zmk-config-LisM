@@ -32,6 +32,51 @@
             #sensor-binding-cells = <2>;
             bindings = <&kp>, <&kp>;
         };
+
+        us_bq: us_bq {
+            compatible = "zmk,behavior-mod-morph";
+            label = "US_BQ";
+            bindings = <&kp LS(LEFT_BRACKET)>, <&kp LS(EQUAL)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        us_min: us_min {
+            compatible = "zmk,behavior-mod-morph";
+            label = "US_MIN";
+            bindings = <&kp MINUS>, <&kp LS(INT1)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        us_pl: us_pl {
+            compatible = "zmk,behavior-mod-morph";
+            label = "US_PL";
+            bindings = <&kp LS(MINUS)>, <&kp LS(SEMI)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        us_se: us_se {
+            compatible = "zmk,behavior-mod-morph";
+            label = "US_SE";
+            bindings = <&kp SEMI>, <&kp APOS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        us_ap: us_ap {
+            compatible = "zmk,behavior-mod-morph";
+            label = "US_AP";
+            bindings = <&kp LS(N7)>, <&kp LS(N2)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
