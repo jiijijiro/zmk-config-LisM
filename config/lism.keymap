@@ -600,5 +600,45 @@
                 &trans   &trans   &trans                     &trans  &trans  &trans
             >;
         };
+
+        layer_3 {
+            bindings = <
+&lt 2 Q      &lt 1 W  &kp E       &kp R       &lt 0 T                                &mo 0            &kp Y        &kp U       &kp I       &lt 2 O
+&kp A        &kp S    &mt LALT D  &mt LGUI F  &mt LCTRL G                            &us_bq           &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P
+&mt LSHFT Z  &lt 2 X  &kp C       &kp V       &kp B                                  &TD02            &TD03        &kp N       &kp M       &mt RSHFT L
+&trans       &trans   &trans      &trans      &lt 2 ENTER  &lt 1 SPACE    &lt 2 TAB  &lt 1 BACKSPACE  &trans       &TD04       &TD05       &TD06
+                      &trans      &trans      &trans                                 &trans           &trans       &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                     &kp HOME   &kp END          &kp N7       &kp N8       &lt 2 N9
+&kp A   &kp S   &trans  &trans  &trans                     &kp PG_UP  &mt RCTRL PG_DN  &mt RGUI N4  &mt RALT N5  &kp N6
+&kp Z   &kp X   &kp C   &kp V   &kp B                      &TD08      &TD08            &kp N1       &kp N2       &mt RSHFT N3
+&trans  &trans  &trans  &trans  &trans  &trans    &kp TAB  &kp BSPC   &trans           &kp N0       &TD09        &kp ENTER
+                &trans  &trans  &trans                     &trans     &trans           &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &kp F1  &kp F2   &kp F3   &kp F4                     &trans  &trans  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&trans  &kp F5  &kp F6   &kp F7   &kp F8                     &trans  &trans  &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&trans  &kp F9  &kp F10  &kp F11  &kp F12                    &trans  &trans  &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&trans  &trans  &trans   &trans   &trans   &trans    &trans  &trans  &trans  &trans      &trans            &trans
+                &trans   &trans   &trans                     &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans                    &trans  &trans  &trans
+            >;
+        };
     };
 };
