@@ -617,6 +617,16 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <10 20>;
         };
+
+        combo08 {
+            bindings = <&mkp MB2>;
+            key-positions = <1 11>;
+        };
+
+        combo09 {
+            bindings = <&mkp MB1>;
+            key-positions = <2 12>;
+        };
     };
 
     keymap {
