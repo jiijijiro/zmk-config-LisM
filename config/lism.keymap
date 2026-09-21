@@ -563,8 +563,15 @@
         };
 
         combo02 {
+            bindings = <&kp LS(CAPSLOCK)>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+
+        combo02_ {
             bindings = <&kp CAPSLOCK>;
             key-positions = <20 21>;
+            layers = <3>;
         };
     };
 
