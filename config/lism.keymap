@@ -607,6 +607,16 @@
             bindings = <&mc00>;
             key-positions = <8 9>;
         };
+
+        combo06 {
+            bindings = <&kp DEL>;
+            key-positions = <0 10>;
+        };
+
+        combo07 {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 20>;
+        };
     };
 
     keymap {
