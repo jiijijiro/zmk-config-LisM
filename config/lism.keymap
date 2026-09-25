@@ -574,11 +574,11 @@
 
         layer_2 {
             bindings = <
-&trans     &kp F1    &kp F2    &kp F3   &kp F4                       &kp TAB    &kp TAB  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
-&trans     &kp F5    &kp F6    &kp F7   &kp F8                       &kp LEFT   &kp T    &kp LS(N4)  &kp LS(N5)        &kp EQUAL
-&trans     &kp F9    &kp F10   &kp F11  &kp F12                      &kp F      &kp W    &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
-&kp LCTRL  &kp LGUI  &kp LALT  &trans   &trans   &trans    &kp LEFT  &kp RIGHT  &trans   &trans      &trans            &trans
-                     &trans    &trans   &trans                       &trans     &trans   &trans
+&kp LC(LA(TAB))  &kp F1    &kp F2                &kp F3   &kp F4                              &kp LS(LC(TAB))    &kp LC(TAB)  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&kp LG(A)        &kp F5    &kp F6                &kp F7   &kp F8                              &kp LA(LEFT)       &kp LC(T)    &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&kp LG(T)        &kp F9    &kp F10               &kp F11  &kp F12                             &kp LC(F)          &kp LC(W)    &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&kp LCTRL        &kp LGUI  &mt LALT PRINTSCREEN  &trans   &TD28    &TD29    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans       &trans      &trans            &trans
+                           &trans                &trans   &trans                              &trans             &trans       &trans
             >;
         };
 
