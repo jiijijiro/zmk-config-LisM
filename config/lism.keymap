@@ -584,21 +584,21 @@
 
         layer_3 {
             bindings = <
-&lt 2 Q      &lt 1 W   &kp E                  &kp R        &kp T                                  &trans           &kp Y   &kp U        &kp I  &lt 2 O
-&kp A        &kp S     &kp D                  &mt LANG2 F  &kp G                                  &us_bq           &kp H   &mt LANG1 J  &kp K  &kp P
-&mt LSHFT Z  &kp X     &kp C                  &kp V        &kp B                                  &TD02            &TD03   &kp N        &kp M  &mt RSHFT L
-&kp LCTRL    &kp LGUI  &mt LALT LS(CAPSLOCK)  &trans       &lt 2 ENTER  &lt 1 SPACE    &lt 2 TAB  &lt 1 BACKSPACE  &trans  &TD04        &TD05  &TD06
-                       &trans                 &trans       &trans                                 &trans           &trans  &trans
+&lt 5 Q      &lt 4 W    &kp E              &kp R        &kp T                                  &trans           &kp Y   &kp U        &kp I  &lt 5 O
+&kp A        &kp S      &kp D              &mt LANG2 F  &kp G                                  &us_bq           &kp H   &mt LANG1 J  &kp K  &kp P
+&mt LSHFT Z  &kp X      &kp C              &kp V        &kp B                                  &TD02            &TD03   &kp N        &kp M  &mt RSHFT L
+&kp LGUI     &kp CARET  &mt LALT CAPSLOCK  &trans       &lt 5 ENTER  &lt 4 SPACE    &lt 5 TAB  &lt 4 BACKSPACE  &trans  &TD04        &TD05  &TD06
+                        &trans             &trans       &trans                                 &trans           &trans  &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&trans     &trans    &trans                 &trans  &trans                        &kp HOME   &kp END    &kp N7        &kp N8  &lt 2 N9
-&kp A      &kp S     &trans                 &trans  &kp PG_DN                     &kp PG_UP  &kp PG_DN  &mt LANG2 N4  &kp N5  &kp N6
-&kp Z      &kp X     &kp C                  &kp V   &kp B                         &TD07      &TD08      &kp N1        &kp N2  &mt RSHFT N3
-&kp LCTRL  &kp LGUI  &mt LALT LS(CAPSLOCK)  &trans  &trans     &trans    &kp TAB  &kp BSPC   &trans     &kp N0        &TD09   &kp TAB
-                     &trans                 &trans  &trans                        &trans     &trans     &trans
+&trans    &trans     &trans             &trans  &trans                        &kp HOME   &kp END    &kp N7        &kp N8  &lt 2 N9
+&kp A     &kp S      &trans             &trans  &kp PG_DN                     &kp PG_UP  &kp PG_DN  &mt LANG2 N4  &kp N5  &kp N6
+&kp Z     &kp X      &kp C              &kp V   &kp B                         &TD07      &TD08      &kp N1        &kp N2  &mt RSHFT N3
+&kp LGUI  &kp LCTRL  &mt LALT CAPSLOCK  &trans  &trans     &trans    &kp TAB  &kp BSPC   &trans     &kp N0        &TD09   &kp TAB
+                     &trans             &trans  &trans                        &trans     &trans     &trans
             >;
         };
 
