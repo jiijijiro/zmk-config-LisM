@@ -570,6 +570,151 @@
 
             label = "IOS05";
         };
+
+        mc0: mc0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB1 &mkp MB1>;
+            label = "MC0";
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        combo00 {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        combo01 {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+        };
+
+        combo02 {
+            bindings = <&none>;
+            key-positions = <20 21>;
+        };
+
+        combo03 {
+            bindings = <&mo 6>;
+            key-positions = <34 35>;
+        };
+
+        combo04 {
+            bindings = <&mo 6>;
+            key-positions = <36 37>;
+        };
+
+        combo05 {
+            bindings = <&mc00>;
+            key-positions = <8 9>;
+        };
+
+        combo06 {
+            bindings = <&kp DEL>;
+            key-positions = <0 10>;
+        };
+
+        combo07 {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 20>;
+        };
+
+        combo08 {
+            bindings = <&mkp MB2>;
+            key-positions = <1 11>;
+        };
+
+        combo09 {
+            bindings = <&mkp MB1>;
+            key-positions = <2 12>;
+        };
+
+        combo10 {
+            bindings = <&mc0>;
+            key-positions = <12 22>;
+        };
+
+        combo11 {
+            bindings = <&kp HOME>;
+            key-positions = <3 4>;
+        };
+
+        combo12 {
+            bindings = <&kp END>;
+            key-positions = <13 14>;
+        };
+
+        combo13 {
+            bindings = <&kp UP>;
+            key-positions = <13 14>;
+        };
+
+        combo14 {
+            bindings = <&kp DOWN>;
+            key-positions = <23 24>;
+        };
+
+        combo15 {
+            bindings = <&kp LEFT>;
+            key-positions = <13 23>;
+        };
+
+        combo16 {
+            bindings = <&kp RIGHT>;
+            key-positions = <14 24>;
+        };
+
+        combo17 {
+            bindings = <&kp HOME>;
+            key-positions = <5 6>;
+            layers = <0 1 2>;
+        };
+
+        combo18 {
+            bindings = <&kp END>;
+            key-positions = <15 16>;
+            layers = <0 1 2>;
+        };
+
+        combo19 {
+            bindings = <&kp LG(UP)>;
+            key-positions = <5 6>;
+            layers = <3 4 5>;
+        };
+
+        combo20 {
+            bindings = <&kp LG(DOWN)>;
+            key-positions = <15 16>;
+            layers = <3 4 5>;
+        };
+
+        combo21 {
+            bindings = <&mc0>;
+            key-positions = <17 27>;
+        };
+
+        combo22 {
+            bindings = <&mkp MB1>;
+            key-positions = <7 17>;
+        };
+
+        combo23 {
+            bindings = <&mkp MB2>;
+            key-positions = <8 18>;
+        };
+
+        combo24 {
+            bindings = <&kp DEL>;
+            key-positions = <9 19>;
+        };
+
+        combo25 {
+            bindings = <&kp ENTER>;
+            key-positions = <19 29>;
+        };
     };
 
     keymap {
