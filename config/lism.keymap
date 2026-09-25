@@ -9,14 +9,14 @@
 
 &mt {
     tapping-term-ms = <300>;
-    flavor = "balanced";
+    flavor = "tap-preferred";
     require-prior-idle-ms = <200>;
 };
 
 &lt {
     tapping-term-ms = <300>;
     require-prior-idle-ms = <200>;
-    flavor = "balanced";
+    flavor = "tap-preferred";
 };
 
 / {
@@ -554,11 +554,31 @@
 
         layer_0 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans                    &trans  &trans  &trans
+&lt 2 Q      &lt 1 W   &kp E     &kp R        &kp T                                  &trans           &kp Y   &kp U        &kp I  &lt 2 O
+&kp A        &kp S     &kp D     &mt LANG2 F  &kp G                                  &trans           &kp H   &mt LANG1 J  &kp K  &kp P
+&mt LSHFT Z  &kp X     &kp C     &kp V        &kp B                                  &TD02            &TD03   &kp N        &kp M  &mt RSHFT L
+&kp LCTRL    &kp LGUI  &kp LALT  &trans       &lt 2 ENTER  &lt 1 SPACE    &lt 2 TAB  &lt 1 BACKSPACE  &trans  &TD04        &TD05  &TD06
+                       &trans    &trans       &trans                                 &trans           &trans  &trans
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                        &kp HOME   &kp END    &kp N7        &kp N8  &lt 2 N9
+&kp A   &kp S   &trans  &trans  &kp PG_DN                     &kp PG_UP  &kp PG_DN  &mt LANG2 N4  &kp N5  &kp N6
+&kp Z   &kp X   &kp C   &kp V   &kp B                         &TD07      &TD08      &kp N1        &kp N2  &mt RSHFT N3
+&trans  &trans  &trans  &trans  &trans     &trans    &kp TAB  &kp BSPC   &trans     &kp N0        &TD09   &kp TAB
+                &trans  &trans  &trans                        &trans     &trans     &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &kp F1  &kp F2   &kp F3   &kp F4                       &kp TAB    &kp TAB  &kp LS(N6)  &kp LS(N8)        &kp LS(N9)
+&trans  &kp F5  &kp F6   &kp F7   &kp F8                       &kp LEFT   &kp T    &kp LS(N4)  &kp LS(N5)        &kp EQUAL
+&trans  &kp F9  &kp F10  &kp F11  &kp F12                      &kp F      &kp W    &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)
+&trans  &trans  &trans   &trans   &trans   &trans    &kp LEFT  &kp RIGHT  &trans   &trans      &trans            &trans
+                &trans   &trans   &trans                       &trans     &trans   &trans
             >;
         };
     };
