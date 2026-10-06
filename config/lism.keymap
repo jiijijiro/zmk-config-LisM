@@ -524,6 +524,8 @@
 &trans   &trans   &trans  &trans  &kp LG(L)  &kp LA(F4)    &trans  &trans  &trans  &trans  &trans  &trans
                   &trans  &trans  &trans                           &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         layer_3 {
@@ -534,6 +536,8 @@
 &trans    &trans    &trans     &trans  &TD28   &TD29    &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))  &trans  &trans    &trans    &trans
                     &trans     &trans  &trans                             &trans             &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
         };
 
         layer_4 {
