@@ -533,11 +533,11 @@
 
         layer_2 {
             bindings = <
-&kp F1   &kp F2   &kp F3           &kp F4  &kp F5                           &trans  &trans  &trans  &trans  &trans
-&kp F6   &kp F7   &kp F8           &kp F9  &kp F10                          &trans  &trans  &trans  &trans  &trans
-&kp F11  &kp F12  &kp PRINTSCREEN  &trans  &trans                           &trans  &trans  &trans  &trans  &trans
-&trans   &trans   &trans           &trans  &kp LG(L)  &kp LA(F4)    &trans  &trans  &trans  &trans  &trans  &trans
-                  &trans           &trans  &trans                           &trans  &trans  &trans
+&kp F1   &kp F2   &kp F3           &kp F4     &kp F5                           &trans  &trans  &trans  &trans  &trans
+&kp F6   &kp F7   &kp F8           &kp F9     &kp F10                          &trans  &trans  &trans  &trans  &trans
+&kp F11  &kp F12  &kp PRINTSCREEN  &kp LG(P)  &trans                           &trans  &trans  &trans  &trans  &trans
+&trans   &trans   &trans           &trans     &kp LG(L)  &kp LA(F4)    &trans  &trans  &trans  &trans  &trans  &trans
+                  &trans           &trans     &trans                           &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN>;
@@ -545,11 +545,11 @@
 
         layer_3 {
             bindings = <
-&trans    &kp UP    &trans     &trans  &trans                             &trans             &trans  &trans    &kp UP    &trans
-&kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans                             &trans             &trans  &kp LEFT  &kp DOWN  &kp RIGHT
-&trans    &trans    &trans     &trans  &trans                             &trans             &trans  &trans    &trans    &trans
-&trans    &trans    &trans     &trans  &TD28   &TD29    &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))  &trans  &trans    &trans    &trans
-                    &trans     &trans  &trans                             &trans             &trans  &trans
+&kp LC(LA(TAB))  &kp UP    &kp LG(A)  &trans  &trans                             &trans             &trans  &trans    &kp UP    &trans
+&kp LEFT         &kp DOWN  &kp RIGHT  &trans  &trans                             &trans             &trans  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp LG(T)        &trans    &trans     &trans  &trans                             &trans             &trans  &trans    &trans    &trans
+&trans           &trans    &trans     &trans  &TD28   &TD29    &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))  &trans  &trans    &trans    &trans
+                           &trans     &trans  &trans                             &trans             &trans  &trans
             >;
 
             sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
