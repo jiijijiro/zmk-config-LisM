@@ -595,11 +595,11 @@
 
         layer_0 {
             bindings = <
-&lt 2 Q      &lt 3 W      &lt 8 E     &lt 9 R     &lt 10 T                                     &kp Y    &kp U   &kp I   &lt 3 O  &kp L
-&kp A        &kp S        &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &kp H    &kp J   &kp K   &kp P    &TD01
-&mt LSHFT Z  &lt 8 X      &kp C       &kp V       &kp B                                        &kp N    &kp M   &TD02   &TD03    &TD04
-&trans       &lt 3 LANG2  &trans      &trans      &lt 2 ENTER  &lt 1 SPACE    &lt 1 BACKSPACE  &kp TAB  &trans  &trans  &trans   &lt 3 LANG1
-                          &trans      &trans      &trans                                       &trans   &trans  &trans
+&lt 2 Q      &lt 3 W      &lt 8 E     &lt 9 R     &lt 10 T                                     &kp Y      &kp U   &kp I   &lt 3 O  &kp L
+&kp A        &kp S        &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &kp H      &kp J   &kp K   &kp P    &TD01
+&mt LSHFT Z  &lt 8 X      &kp C       &kp V       &kp B                                        &kp N      &kp M   &TD02   &TD03    &TD04
+&trans       &lt 3 LANG2  &trans      &trans      &lt 2 ENTER  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 TAB  &trans  &trans  &trans   &lt 3 LANG1
+                          &trans      &trans      &trans                                       &trans     &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
@@ -607,11 +607,11 @@
 
         layer_1 {
             bindings = <
-&TD10   &mc02        &mc03      &mc04   &TD14                                                &kp N7  &kp N8  &kp N9  &lt 3 STAR  &kp FSLH
-&TD15   &TD16        &TD17      &TD18   &mt LCTRL LC(PG_DN)                                  &kp N4  &kp N5  &kp N6  &kp PLUS    &kp MINUS
-&TD20   &lt 8 LC(X)  &kp LC(C)  &TD23   &kp LC(B)                                            &kp N1  &kp N2  &kp N3  &kp TAB     &mt RSHFT ENTER
-&trans  &lt 3 LANG2  &trans     &trans  &lt 2 ENTER          &lt 9 SPACE    &lt 9 BACKSPACE  &kp N0  &trans  &trans  &trans      &TD09
-                     &trans     &trans  &trans                                               &trans  &trans  &trans
+&TD10   &mc02        &mc03      &mc04   &TD14                                                &kp N7    &kp N8  &kp N9  &lt 3 STAR  &kp FSLH
+&TD15   &TD16        &TD17      &TD18   &mt LCTRL LC(PG_DN)                                  &kp N4    &kp N5  &kp N6  &kp PLUS    &kp MINUS
+&TD20   &lt 8 LC(X)  &kp LC(C)  &TD23   &kp LC(B)                                            &kp N1    &kp N2  &kp N3  &kp TAB     &mt RSHFT ENTER
+&trans  &lt 3 LANG2  &trans     &trans  &lt 2 ENTER          &lt 9 SPACE    &lt 9 BACKSPACE  &lt 2 N0  &trans  &trans  &trans      &TD09
+                     &trans     &trans  &trans                                               &trans    &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
@@ -619,11 +619,11 @@
 
         layer_2 {
             bindings = <
-&kp F1   &kp F2   &kp F3           &kp F4     &kp F5                           &trans  &trans  &trans  &trans  &trans
-&kp F6   &kp F7   &kp F8           &kp F9     &kp F10                          &trans  &trans  &trans  &trans  &trans
-&kp F11  &kp F12  &kp PRINTSCREEN  &kp LG(P)  &trans                           &trans  &trans  &trans  &trans  &trans
-&trans   &trans   &trans           &trans     &kp LG(L)  &kp LA(F4)    &trans  &trans  &trans  &trans  &trans  &trans
-                  &trans           &trans     &trans                           &trans  &trans  &trans
+&kp F1   &kp F2   &kp F3           &kp F4     &kp F5                           &kp HOME   &kp END    &trans  &trans  &trans
+&kp F6   &kp F7   &kp F8           &kp F9     &kp F10                          &kp PG_UP  &kp PG_DN  &trans  &trans  &trans
+&kp F11  &kp F12  &kp PRINTSCREEN  &kp LG(P)  &trans                           &trans     &trans     &trans  &trans  &trans
+&trans   &trans   &trans           &trans     &kp LG(L)  &kp LA(F4)    &trans  &trans     &trans     &trans  &trans  &trans
+                  &trans           &trans     &trans                           &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN>;
@@ -643,11 +643,11 @@
 
         layer_4 {
             bindings = <
-&lt 6 Q      &lt 7 W      &lt 8 E     &lt 9 R      &lt 10 T                                     &kp Y    &kp U   &kp I   &lt 7 O  &kp L
-&kp A        &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &kp H    &kp J   &kp K   &kp P    &TD01
-&mt LSHFT Z  &lt 8 X      &kp C       &kp V        &kp B                                        &kp N    &kp M   &TD02   &TD03    &TD04
-&trans       &lt 7 LANG2  &trans      &trans       &lt 6 ENTER  &lt 5 SPACE    &lt 5 BACKSPACE  &kp TAB  &trans  &trans  &trans   &lt 7 LANG1
-                          &trans      &trans       &trans                                       &trans   &trans  &trans
+&lt 6 Q      &lt 7 W      &lt 8 E     &lt 9 R      &lt 10 T                                     &kp Y      &kp U   &kp I   &lt 7 O  &kp L
+&kp A        &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &kp H      &kp J   &kp K   &kp P    &TD01
+&mt LSHFT Z  &lt 8 X      &kp C       &kp V        &kp B                                        &kp N      &kp M   &TD02   &TD03    &TD04
+&trans       &lt 7 LANG2  &trans      &trans       &lt 6 ENTER  &lt 5 SPACE    &lt 5 BACKSPACE  &lt 6 TAB  &trans  &trans  &trans   &lt 7 LANG1
+                          &trans      &trans       &trans                                       &trans     &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
@@ -667,11 +667,11 @@
 
         layer_6 {
             bindings = <
-&kp F1   &kp F2   &kp F3          &kp F4          &kp F5                           &trans  &trans  &trans  &trans  &trans
-&kp F6   &kp F7   &kp F8          &kp F9          &kp F10                          &trans  &trans  &trans  &trans  &trans
-&kp F11  &kp F12  &kp LG(LS(N4))  &kp LG(LS(N3))  &trans                           &trans  &trans  &trans  &trans  &trans
-&trans   &trans   &trans          &trans          &kp LG(LC(Q))  &ios00    &trans  &trans  &trans  &trans  &trans  &trans
-                  &trans          &trans          &trans                           &trans  &trans  &trans
+&kp F1   &kp F2   &kp F3          &kp F4          &kp F5                           &kp HOME   &kp END    &trans  &trans  &trans
+&kp F6   &kp F7   &kp F8          &kp F9          &kp F10                          &kp PG_UP  &kp PG_DN  &trans  &trans  &trans
+&kp F11  &kp F12  &kp LG(LS(N4))  &kp LG(LS(N3))  &trans                           &trans     &trans     &trans  &trans  &trans
+&trans   &trans   &trans          &trans          &kp LG(LC(Q))  &ios00    &trans  &trans     &trans     &trans  &trans  &trans
+                  &trans          &trans          &trans                           &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN>;
