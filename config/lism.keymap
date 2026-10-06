@@ -503,5 +503,15 @@
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
+
+        layer_1 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                          &kp N7   &kp N8  &kp N9  &kp STAR  &kp FSLH
+&trans  &trans  &trans  &trans  &trans                          &kp N4   &kp N5  &kp N6  &kp PLUS  &kp MINUS
+&trans  &trans  &trans  &trans  &trans                          &kp N1   &kp N2  &kp N3  &kp TAB   &kp RET
+&trans  &trans  &trans  &trans  &kp RET  &kp SPACE    &kp BSPC  &kp TAB  &trans  &trans  &trans    &trans
+                &trans  &trans  &trans                          &trans   &trans  &trans
+            >;
+        };
     };
 };
