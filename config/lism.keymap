@@ -502,6 +502,78 @@
             bindings = <&kp LA(H) &kp A &kp R>;
             label = "MC11";
         };
+
+        ios00: ios00 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp H>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS00";
+        };
+
+        ios01: ios01 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp A>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS01";
+        };
+
+        ios02: ios02 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp C>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS02";
+        };
+
+        ios03: ios03 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp UP>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS03";
+        };
+
+        ios04: ios04 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp LEFT>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS04";
+        };
+
+        ios05: ios05 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE &kp RIGHT>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "IOS05";
+        };
     };
 
     keymap {
