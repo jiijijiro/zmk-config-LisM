@@ -494,12 +494,14 @@
 
         layer_0 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans                    &trans  &trans  &trans
+&kp Q   &kp W   &kp E   &kp R   &kp T                           &kp Y    &kp U   &kp I   &kp O   &kp P
+&kp A   &kp S   &kp D   &kp F   &kp G                           &kp H    &kp J   &kp K   &kp L   &trans
+&kp Z   &kp X   &kp C   &kp V   &kp B                           &kp N    &kp M   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp RET  &kp SPACE    &kp BSPC  &kp TAB  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans                          &trans   &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
     };
 };
