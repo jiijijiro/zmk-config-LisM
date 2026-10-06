@@ -494,8 +494,8 @@
 
         layer_0 {
             bindings = <
-&lt 2 Q      &lt 3 W      &lt 8 E     &lt 9 R     &lt 10 T                                     &kp Y        &kp U       &kp I       &lt 3 O  &kp P
-&kp A        &kp S        &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD01
+&lt 2 Q      &lt 3 W      &lt 8 E     &lt 9 R     &lt 10 T                                     &kp Y        &kp U       &kp I       &lt 3 O  &kp L
+&kp A        &kp S        &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp P    &TD01
 &mt LSHFT Z  &lt 8 X      &kp C       &kp V       &kp B                                        &kp N        &kp M       &TD02       &TD03    &TD04
 &trans       &lt 3 LANG2  &trans      &trans      &lt 2 ENTER  &lt 1 SPACE    &lt 1 BACKSPACE  &kp TAB      &trans      &trans      &trans   &lt 3 LANG1
                           &trans      &trans      &trans                                       &trans       &trans      &trans
@@ -542,8 +542,8 @@
 
         layer_4 {
             bindings = <
-&lt 6 Q      &lt 7 W      &lt 8 E     &lt 9 R      &lt 10 T                                     &kp Y       &kp U        &kp I       &lt 7 O      &kp P
-&kp A        &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &mt RGUI H  &mt RCTRL J  &mt RALT K  &mt GLOBE L  &TD01
+&lt 6 Q      &lt 7 W      &lt 8 E     &lt 9 R      &lt 10 T                                     &kp Y       &kp U        &kp I       &lt 7 O      &kp L
+&kp A        &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &mt RGUI H  &mt RCTRL J  &mt RALT K  &mt GLOBE P  &TD01
 &mt LSHFT Z  &lt 8 X      &kp C       &kp V        &kp B                                        &kp N       &kp M        &TD02       &TD03        &TD04
 &trans       &lt 7 LANG2  &trans      &trans       &lt 6 ENTER  &lt 5 SPACE    &lt 5 BACKSPACE  &kp TAB     &trans       &trans      &trans       &lt 7 LANG1
                           &trans      &trans       &trans                                       &trans      &trans       &trans
@@ -602,8 +602,8 @@
 
         layer_9 {
             bindings = <
-&kp Q   &kp W   &kp E   &kp R   &kp T                           &kp Y    &kp U   &kp I   &kp O   &kp P
-&kp A   &kp S   &kp D   &kp F   &kp G                           &kp H    &kp J   &kp K   &kp L   &kp U
+&kp Q   &kp W   &kp E   &kp R   &kp T                           &kp Y    &kp U   &kp I   &kp O   &kp L
+&kp A   &kp S   &kp D   &kp F   &kp G                           &kp H    &kp J   &kp K   &kp P   &trans
 &kp Z   &kp X   &kp C   &kp V   &kp B                           &kp N    &kp M   &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &kp RET  &kp SPACE    &kp BSPC  &kp TAB  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans                          &trans   &trans  &trans
