@@ -576,6 +576,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo00 {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        combo01 {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
