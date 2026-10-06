@@ -526,11 +526,11 @@
 
         layer_3 {
             bindings = <
-&trans    &kp UP    &trans     &trans  &trans                    &trans  &trans  &trans    &kp UP    &trans
-&kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans                    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT
-&trans    &trans    &trans     &trans  &trans                    &trans  &trans  &trans    &trans    &trans
-&trans    &trans    &trans     &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans
-                    &trans     &trans  &trans                    &trans  &trans  &trans
+&trans    &kp UP    &trans     &trans  &trans                             &trans             &trans  &trans    &kp UP    &trans
+&kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans                             &trans             &trans  &kp LEFT  &kp DOWN  &kp RIGHT
+&trans    &trans    &trans     &trans  &trans                             &trans             &trans  &trans    &trans    &trans
+&trans    &trans    &trans     &trans  &TD28   &TD29    &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))  &trans  &trans    &trans    &trans
+                    &trans     &trans  &trans                             &trans             &trans  &trans
             >;
         };
 
