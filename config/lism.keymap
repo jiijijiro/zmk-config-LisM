@@ -495,7 +495,7 @@
         layer_0 {
             bindings = <
 &lt 2 Q      &lt 3 W      &lt 8 E     &lt 9 R     &lt 10 T                                     &kp Y        &kp U       &kp I       &lt 3 O  &kp P
-&kp A        &kp S        &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt J RGUI  &mt RALT K  &kp L    &TD01
+&kp A        &kp S        &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt RGUI J  &mt RALT K  &kp L    &TD01
 &mt LSHFT Z  &lt 8 X      &kp C       &kp V       &kp B                                        &kp N        &kp M       &TD02       &TD03    &TD04
 &trans       &lt 3 LANG2  &trans      &trans      &lt 2 ENTER  &lt 1 SPACE    &lt 1 BACKSPACE  &kp TAB      &trans      &trans      &trans   &lt 3 LANG1
                           &trans      &trans      &trans                                       &trans       &trans      &trans
@@ -542,11 +542,11 @@
 
         layer_4 {
             bindings = <
-&lt 6 Q      &lt 7 W      &lt 8 E     &lt 9 R     &lt 10 T                                     &kp Y        &kp U       &kp I       &lt 7 O  &kp P
-&kp A        &kp S        &mt LALT D  &mt LGUI F  &mt LCTRL G                                  &mt RCTRL H  &mt J RGUI  &mt RALT K  &kp L    &TD01
-&mt LSHFT Z  &lt 8 X      &kp C       &kp V       &kp B                                        &kp N        &kp M       &TD02       &TD03    &TD04
-&trans       &lt 3 LANG2  &trans      &trans      &lt 2 ENTER  &lt 1 SPACE    &lt 1 BACKSPACE  &kp TAB      &trans      &trans      &trans   &lt 3 LANG1
-                          &trans      &trans      &trans                                       &trans       &trans      &trans
+&lt 6 Q      &lt 7 W      &lt 8 E     &lt 9 R      &lt 10 T                                     &kp Y       &kp U        &kp I       &lt 7 O      &kp P
+&kp A        &mt GLOBE S  &mt LALT D  &mt LCTRL F  &mt LGUI G                                   &mt RGUI H  &mt RCTRL J  &mt RALT K  &mt GLOBE L  &TD01
+&mt LSHFT Z  &lt 8 X      &kp C       &kp V        &kp B                                        &kp N       &kp M        &TD02       &TD03        &TD04
+&trans       &lt 7 LANG2  &trans      &trans       &lt 6 ENTER  &lt 5 SPACE    &lt 5 BACKSPACE  &kp TAB     &trans       &trans      &trans       &lt 7 LANG1
+                          &trans      &trans       &trans                                       &trans      &trans       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
@@ -554,11 +554,11 @@
 
         layer_5 {
             bindings = <
-&trans     &trans       &trans    &trans    &trans                                       &kp N7        &kp N8       &kp N9       &kp STAR  &kp FSLH
-&trans     &trans       &kp LALT  &kp LGUI  &kp LCTRL                                    &mt RCTRL N4  &mt RGUI N5  &mt RALT N6  &kp PLUS  &kp MINUS
-&kp LSHFT  &trans       &trans    &trans    &trans                                       &kp N1        &kp N2       &kp N3       &kp TAB   &mt RSHFT ENTER
-&trans     &lt 3 LANG2  &trans    &trans    &lt 2 ENTER  &lt 9 SPACE    &lt 9 BACKSPACE  &kp TAB       &trans       &trans       &trans    &lt 3 LANG1
-                        &trans    &trans    &trans                                       &trans        &trans       &trans
+&trans     &trans       &trans    &trans     &trans                                       &kp N7       &kp N8        &kp N9       &kp STAR        &kp FSLH
+&trans     &kp GLOBE    &kp LALT  &kp LCTRL  &kp LGUI                                     &mt RGUI N4  &mt RCTRL N5  &mt RALT N6  &mt GLOBE PLUS  &kp MINUS
+&kp LSHFT  &trans       &trans    &trans     &trans                                       &kp N1       &kp N2        &kp N3       &kp TAB         &mt RSHFT ENTER
+&trans     &lt 7 LANG2  &trans    &trans     &lt 6 ENTER  &lt 9 SPACE    &lt 9 BACKSPACE  &kp TAB      &trans        &trans       &trans          &lt 7 LANG1
+                        &trans    &trans     &trans                                       &trans       &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
