@@ -92,7 +92,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD01";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&us_min>, <&us_pl>;
+
             tapping-term-ms = <300>;
         };
 
@@ -100,7 +101,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD02";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp COMMA>, <&us_se>;
+
             tapping-term-ms = <300>;
         };
 
@@ -108,7 +110,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD03";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp DOT>, <&us_ap>;
+
             tapping-term-ms = <300>;
         };
 
@@ -116,7 +119,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD04";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt RSHFT SLASH>, <&kp INT3>;
+
             tapping-term-ms = <300>;
         };
 
@@ -592,7 +596,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &kp LS(N6)  &kp LS(N8)        &kp LS(N9)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)
 &trans  &trans  &trans  &trans  &trans                    &kp LS(N4)  &kp LS(N5)        &kp EQUAL   &kp RIGHT_BRACKET      &kp NON_US_HASH
-&trans  &trans  &trans  &trans  &trans                    &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)  &kp INT3               &kp LS(INT3)
+&trans  &trans  &trans  &trans  &trans                    &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)  &kp LS(LEFT_BRACKET)   &kp LS(EQUAL)
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans            &trans      &trans                 &trans
                 &trans  &trans  &trans                    &trans      &trans            &trans
             >;
