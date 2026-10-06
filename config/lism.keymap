@@ -590,10 +590,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp LS(N6)  &kp LS(N8)        &kp LS(N9)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &kp LS(N4)  &kp LS(N5)        &kp EQUAL   &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans            &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &kp LS(N6)  &kp LS(N8)        &kp LS(N9)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)
+&trans  &trans  &trans  &trans  &trans                    &kp LS(N4)  &kp LS(N5)        &kp EQUAL   &kp RIGHT_BRACKET      &kp NON_US_HASH
+&trans  &trans  &trans  &trans  &trans                    &kp LS(N1)  &kp LEFT_BRACKET  &kp LS(N3)  &kp INT3               &kp LS(INT3)
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans            &trans      &trans                 &trans
                 &trans  &trans  &trans                    &trans      &trans            &trans
             >;
 
