@@ -506,11 +506,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans       &trans  &trans  &trans                              &kp N7   &kp N8  &kp N9  &kp STAR  &kp FSLH
-&trans  &trans       &trans  &trans  &trans                              &kp N4   &kp N5  &kp N6  &kp PLUS  &kp MINUS
-&trans  &trans       &trans  &trans  &trans                              &kp N1   &kp N2  &kp N3  &kp TAB   &kp RET
-&trans  &lt 3 LANG2  &trans  &trans  &lt 2 ENTER  &kp SPACE    &kp BSPC  &kp TAB  &trans  &trans  &trans    &lt 3 LANG1
-                     &trans  &trans  &trans                              &trans   &trans  &trans
+&trans     &trans       &trans    &trans    &trans                              &kp N7        &kp N8       &kp N9       &kp STAR  &kp FSLH
+&trans     &trans       &kp LALT  &kp LGUI  &kp LCTRL                           &mt RCTRL N4  &mt RGUI N5  &mt RALT N6  &kp PLUS  &kp MINUS
+&kp LSHFT  &trans       &trans    &trans    &trans                              &kp N1        &kp N2       &kp N3       &kp TAB   &mt RSHFT ENTER
+&trans     &lt 3 LANG2  &trans    &trans    &lt 2 ENTER  &kp SPACE    &kp BSPC  &kp TAB       &trans       &trans       &trans    &lt 3 LANG1
+                        &trans    &trans    &trans                              &trans        &trans       &trans
             >;
         };
 
