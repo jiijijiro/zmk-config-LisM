@@ -494,11 +494,11 @@
 
         layer_0 {
             bindings = <
-&kp Q   &kp W      &kp E   &kp R   &kp T                           &kp Y    &kp U   &kp I   &kp O   &kp P
-&kp A   &kp S      &kp D   &kp F   &kp G                           &kp H    &kp J   &kp K   &kp L   &TD01
-&kp Z   &kp X      &kp C   &kp V   &kp B                           &kp N    &kp M   &TD02   &TD03   &TD04
-&trans  &kp LANG2  &trans  &trans  &kp RET  &kp SPACE    &kp BSPC  &kp TAB  &trans  &trans  &trans  &kp LANG1
-                   &trans  &trans  &trans                          &trans   &trans  &trans
+&kp Q        &kp W      &kp E   &kp R   &kp T                                        &kp Y    &kp U   &kp I   &kp O   &kp P
+&kp A        &kp S      &kp D   &kp F   &kp G                                        &kp H    &kp J   &kp K   &kp L   &TD01
+&mt LSHFT Z  &kp X      &kp C   &kp V   &kp B                                        &kp N    &kp M   &TD02   &TD03   &TD04
+&trans       &kp LANG2  &trans  &trans  &lt 2 ENTER  &lt 1 SPACE    &lt 1 BACKSPACE  &kp TAB  &trans  &trans  &trans  &kp LANG1
+                        &trans  &trans  &trans                                       &trans   &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
