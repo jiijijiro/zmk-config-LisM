@@ -665,6 +665,11 @@
             bindings = <&kp END>;
             key-positions = <13 14>;
         };
+
+        combo16 {
+            bindings = <&tog 1>;
+            key-positions = <37 41>;
+        };
     };
 
     keymap {
