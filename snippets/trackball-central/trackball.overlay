@@ -20,12 +20,7 @@
 &peripheral_listener {
     status = "okay";
 };
-
 // セントラルのリスナーを有効化し、deviceを紐付け
-&zip_temp_layer {
-    excluded-positions = <7 8>;
-};
-
 &central_listener {
     status = "okay";
     device = <&trackball_central>;
