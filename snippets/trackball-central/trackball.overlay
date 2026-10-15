@@ -33,7 +33,7 @@
         <&zip_temp_layer 11 3000>;
 
     scroller {
-        layers = <10>;
+        layers = <9>;
         input-processors = 
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
             <&zip_xy_to_scroll_mapper>,
