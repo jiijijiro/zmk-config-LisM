@@ -39,12 +39,14 @@
 
         layer_0 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&mo 2   &mo 3   &mo 8   &mo 9   &mo 10                    &trans  &mo 9   &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans                    &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp LEFT RIGHT>;
         };
 
         layer_1 {
@@ -55,6 +57,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans                    &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp LEFT RIGHT>;
         };
 
         layer_2 {
@@ -65,6 +69,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans                    &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp UP DOWN>;
         };
 
         layer_3 {
@@ -75,6 +81,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans                    &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp C_VOL_DN C_VOL_UP>;
         };
 
         layer_4 {
@@ -125,6 +133,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans                    &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp C_BRI_DN C_BRI_UP>;
         };
 
         layer_9 {
@@ -135,16 +145,20 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans                    &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
         };
 
         layer_10 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans                         &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_11 {
