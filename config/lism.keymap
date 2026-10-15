@@ -46,7 +46,7 @@
                 &trans  &trans  &trans                    &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&encoder_kp LEFT RIGHT>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_1 {
@@ -58,7 +58,7 @@
                 &trans  &trans  &trans                    &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&encoder_kp LEFT RIGHT>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_2 {
