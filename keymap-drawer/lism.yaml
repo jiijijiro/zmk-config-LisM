@@ -7,9 +7,9 @@ layers:
   - {t: R, h: '9'}
   - {t: T, h: '10'}
   - Y
-  - U
+  - {t: U, h: '9'}
   - I
-  - {t: O, h: '10'}
+  - O
   - {t: P, h: '2'}
   - A
   - S
@@ -56,9 +56,9 @@ layers:
   - {t: '&mc04', h: '9'}
   - '&TD14'
   - '7'
-  - '8'
+  - {t: '8', h: '9'}
   - '9'
-  - {t: KP ASTERISK, h: '10'}
+  - KP ASTERISK
   - {t: KP SLASH, h: '2'}
   - '&TD15'
   - '&TD16'
@@ -203,9 +203,9 @@ layers:
   - {t: R, h: '9'}
   - {t: T, h: '10'}
   - Y
-  - U
+  - {t: U, h: '9'}
   - I
-  - {t: O, h: '10'}
+  - O
   - {t: P, h: '6'}
   - A
   - S
@@ -252,9 +252,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
-  - '8'
+  - {t: '8', h: '9'}
   - '9'
-  - {t: KP ASTERISK, h: '10'}
+  - KP ASTERISK
   - {t: KP SLASH, h: '6'}
   - Gui+A
   - Gui+S
@@ -546,9 +546,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
