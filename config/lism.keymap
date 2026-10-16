@@ -326,6 +326,56 @@
             bindings = <&none>;
             tapping-term-ms = <300>;
         };
+
+        TH01: TH01 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TH01";
+            #binding-cells = <2>;
+            bindings = <&lt>, <&mc01>;
+
+            flavor = "tap-preferred";
+            tapping-term-ms = <300>;
+        };
+
+        TH02: TH02 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TH02";
+            #binding-cells = <2>;
+            bindings = <&lt>, <&mc02>;
+
+            flavor = "tap-preferred";
+            tapping-term-ms = <300>;
+        };
+
+        TH03: TH03 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TH03";
+            #binding-cells = <2>;
+            bindings = <&lt>, <&mc03>;
+
+            flavor = "tap-preferred";
+            tapping-term-ms = <300>;
+        };
+
+        TH04: TH04 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TH04";
+            #binding-cells = <2>;
+            bindings = <&lt>, <&mc04>;
+
+            flavor = "tap-preferred";
+            tapping-term-ms = <300>;
+        };
+
+        TH05: TH05 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TH05";
+            #binding-cells = <2>;
+            bindings = <&lt>, <&mc05>;
+
+            flavor = "tap-preferred";
+            tapping-term-ms = <300>;
+        };
     };
 
     macros {
