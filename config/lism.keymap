@@ -32,6 +32,42 @@
             #sensor-binding-cells = <2>;
             bindings = <&kp>, <&kp>;
         };
+
+        us_minus: us_minus {
+            compatible = "zmk,behavior-mod-morph";
+            label = "US_MINUS";
+            bindings = <&kp MINUS>, <&kp LS(INT1)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        us_equal: us_equal {
+            compatible = "zmk,behavior-mod-morph";
+            label = "US_EQUAL";
+            bindings = <&kp LS(MINUS)>, <&kp LS(SEMI)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        us_semicolon: us_semicolon {
+            compatible = "zmk,behavior-mod-morph";
+            label = "US_SEMICOLON";
+            bindings = <&kp SEMI>, <&kp LS(N7)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        us_colon: us_colon {
+            compatible = "zmk,behavior-mod-morph";
+            label = "US_COLON";
+            bindings = <&kp APOS>, <&kp LS(N2)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap { compatible = "zmk,keymap"; };
