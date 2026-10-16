@@ -7,7 +7,7 @@ layers:
   - {t: R, h: '9'}
   - {t: T, h: '10'}
   - Y
-  - {t: U, h: '9'}
+  - U
   - I
   - O
   - {t: P, h: '2'}
@@ -546,9 +546,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
