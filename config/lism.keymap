@@ -721,7 +721,7 @@
 
         layer_0 {
             bindings = <
-&lt 2 Q      &lt 3 W      &lt 8 E      &lt 9 R      &lt 10 T                                     &kp Y        &lt 9 U      &kp I        &kp O   &lt 2 P
+&lt 2 Q      &lt 3 W      &lt 8 E      &lt 9 R      &lt 10 T                                     &kp Y        &kp U        &kp I        &kp O   &lt 2 P
 &kp A        &kp S        &mt LANG1 D  &mt LANG2 F  &kp G                                        &kp H        &mt LANG2 J  &mt LANG1 K  &kp L   &TD04
 &mt LSHFT Z  &mt RSHFT X  &mt LALT C   &mt LGUI V   &mt LCTRL B                                  &mt RCTRL N  &mt RGUI M   &TD05        &TD06   &TD07
 &lt 3 TAB    &trans       &trans       &trans       &lt 2 ENTER  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 2 TAB    &trans       &trans       &trans  &lt 3 ENTER
@@ -853,11 +853,11 @@
 
         layer_11 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &mkp MB1  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans
-                &trans  &trans  &trans                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans  &trans
+                &trans  &trans  &trans                    &trans  &trans    &trans
             >;
         };
     };
