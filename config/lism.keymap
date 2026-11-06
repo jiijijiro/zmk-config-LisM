@@ -308,7 +308,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD27";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&none>, <&iOS03>;
+
             tapping-term-ms = <300>;
         };
 
@@ -316,7 +317,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD28";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp F2>, <&iOS02>;
+
             tapping-term-ms = <300>;
         };
 
@@ -324,7 +326,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD29";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp F3>, <&iOS01>;
+
             tapping-term-ms = <300>;
         };
 
@@ -629,7 +632,7 @@
             bindings = <
 &TD05   &HT02 3 0      &HT03 8 0  &mc04     &TD09                                       &kp N7        &kp N8       &kp N9       &kp KP_ASTERISK    &kp KP_SLASH
 &TD10   &TD11          &TD12      &TD13     &kp LC(PG_DN)                               &kp N4        &mt RGUI N5  &mt RALT N6  &mt LANG1 KP_PLUS  &mt LANG2 KP_MINUS
-&TD15   &lt (2) LC(X)  &kp LC(C)  &TD18     &mt (LCTRL) LC(B)                           &mt RCTRL N1  &kp N2       &kp N3       &kp TAB            &kp RSHFT
+&TD15   &lt (2) LC(X)  &kp LC(C)  &TD18     &mt (LCTRL) LC(B)                           &mt RCTRL N1  &kp N2       &kp N3       &kp TAB            &mt RSHFT RET
 &trans  &trans         &trans     &kp UP    &lt 2 RET          &lt 3 SPACE    &kp BSPC  &kp N0        &trans       &trans       &trans             &trans
                        &kp LEFT   &kp DOWN  &kp RIGHT                                   &trans        &trans       &trans
             >;
@@ -651,11 +654,11 @@
 
         layer_3 {
             bindings = <
-&kp Q        &kp W   &kp E           &kp R           &kp T                                   &kp Y        &kp U       &kp I       &kp O   &kp P
-&kp A        &kp S   &mt LALT D      &mt LGUI F      &kp G                                   &kp H        &mt RGUI J  &mt RALT K  &kp L   &TD01
-&mt LSHFT Z  &kp X   &kp C           &kp V           &mt LCTRL B                             &mt RCTRL N  &kp M       &TD02       &TD03   &TD04
-&trans       &trans  &trans          &msc SCRL_UP    &kp RET          &kp SPACE    &kp BSPC  &kp TAB      &trans      &trans      &trans  &trans
-                     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                         &trans       &trans      &trans
+&kp Q        &kp W   &kp E           &kp R           &kp T                                    &kp Y        &kp U       &kp I       &kp O   &kp P
+&kp A        &kp S   &mt LALT D      &mt LGUI F      &kp G                                    &kp H        &mt RGUI J  &mt RALT K  &kp L   &TD01
+&mt LSHFT Z  &kp X   &kp C           &kp V           &mt LCTRL B                              &mt RCTRL N  &kp M       &TD02       &TD03   &TD04
+&trans       &trans  &trans          &msc SCRL_UP    &kp LG(L)        &kp LA(F4)    &kp BSPC  &kp TAB      &trans      &trans      &trans  &trans
+                     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                          &trans       &trans      &trans
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -663,11 +666,11 @@
 
         layer_4 {
             bindings = <
-&lt 6 Q      &lt 7 W      &lt 8 E     &kp R       &kp T                                        &kp Y        &kp U       &kp I       &kp O        &kp P
-&mt LANG1 A  &mt LANG2 S  &mt LALT D  &mt LGUI F  &kp G                                        &kp H        &mt RGUI J  &mt RALT K  &mt LANG1 L  &TD01
-&mt LSHFT Z  &lt 6 X      &kp C       &kp V       &mt LCTRL B                                  &mt RCTRL N  &kp M       &TD02       &TD03        &TD04
-&trans       &trans       &trans      &kp UP      &lt 6 RET    &lt 5 SPACE    &lt 5 BACKSPACE  &kp TAB      &trans      &trans      &trans       &trans
-                          &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
+&lt 6 Q      &lt 7 W      &lt 8 E     &kp R        &kp T                                       &kp Y       &kp U        &kp I       &kp O        &kp P
+&mt LANG1 A  &mt LANG2 S  &mt LALT D  &mt LCTRL F  &kp G                                       &kp H       &mt RCTRL J  &mt RALT K  &mt LANG1 L  &TD01
+&mt LSHFT Z  &lt 6 X      &kp C       &kp V        &mt LGUI B                                  &mt RGUI N  &kp M        &TD02       &TD03        &TD04
+&trans       &trans       &trans      &kp UP       &lt 6 RET   &lt 5 SPACE    &lt 5 BACKSPACE  &kp TAB     &trans       &trans      &trans       &trans
+                          &kp LEFT    &kp DOWN     &kp RIGHT                                   &trans      &trans       &trans
             >;
 
             sensor-bindings = <&encoder_kp LEFT RIGHT>;
@@ -675,11 +678,11 @@
 
         layer_5 {
             bindings = <
-&trans     &trans     &trans    &trans    &trans                              &kp N7        &kp N8       &kp N9       &kp KP_ASTERISK    &kp KP_SLASH
-&kp LANG1  &kp LANG2  &kp LALT  &kp LGUI  &trans                              &kp N4        &mt RGUI N5  &mt RALT N6  &mt LANG1 KP_PLUS  &mt LANG2 KP_MINUS
-&kp LSHFT  &trans     &trans    &trans    &kp LCTRL                           &mt RCTRL N1  &kp N2       &kp N3       &kp TAB            &kp RSHFT
-&trans     &trans     &trans    &kp UP    &lt 6 RET  &lt 7 SPACE    &kp BSPC  &kp N0        &trans       &trans       &trans             &trans
-                      &kp LEFT  &kp DOWN  &kp RIGHT                           &trans        &trans       &trans
+&mo 6              &mo 7              &mo 8      &trans     &trans                                     &kp N7       &kp N8        &kp N9       &kp KP_ASTERISK    &kp KP_SLASH
+&mt (LANG1) LG(A)  &mt (LANG2) LG(S)  &kp LALT   &kp LCTRL  &trans                                     &kp N4       &mt RCTRL N5  &mt RALT N6  &mt LANG1 KP_PLUS  &mt LANG2 KP_MINUS
+&mt (LSHFT) LG(Z)  &lt (6) LG(X)      &kp LG(C)  &kp LG(V)  &mt (LGUI) LG(B)                           &mt RGUI N1  &kp N2        &kp N3       &kp TAB            &mt RSHFT RET
+&trans             &trans             &trans     &kp UP     &lt 6 RET         &lt 7 SPACE    &kp BSPC  &kp N0       &trans        &trans       &trans             &trans
+                                      &kp LEFT   &kp DOWN   &kp RIGHT                                  &trans       &trans        &trans
             >;
 
             sensor-bindings = <&encoder_kp LEFT RIGHT>;
@@ -687,11 +690,11 @@
 
         layer_6 {
             bindings = <
-&kp F1         &kp F2   &kp F3          &kp F4          &kp F5                             &kp LS(N6)          &kp LS(N8)         &kp LS(N9)         &kp LS(RBKT)  &kp LS(NON_US_HASH)
-&kp F6         &kp F7   &mt LALT F8     &mt LGUI F9     &kp F10                            &kp LS(N4)          &mt (RGUI) LS(N5)  &mt (RALT) LS(N6)  &kp RBKT      &kp NON_US_HASH
-&mt LSHFT F11  &kp F12  &trans          &trans          &kp LCTRL                          &mt (RCTRL) LS(N1)  &kp LBKT           &kp LS(N3)         &kp LS(LBKT)  &mt (RSHFT) LS(EQUAL)
-&trans         &trans   &trans          &mmv MOVE_UP    &trans           &trans    &trans  &trans              &trans             &trans             &trans        &trans
-                        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                    &trans              &trans             &trans
+&TD27          &TD28    &TD29           &kp F4          &kp F5                                    &kp LS(N6)         &kp LS(N8)          &kp LS(N9)         &kp LS(RBKT)  &kp LS(NON_US_HASH)
+&kp F6         &kp F7   &mt LALT F8     &mt LCTRL F9    &kp F10                                   &kp LS(N4)         &mt (RCTRL) LS(N5)  &mt (RALT) LS(N6)  &kp RBKT      &kp NON_US_HASH
+&mt LSHFT F11  &kp F12  &kp LG(LS(N4))  &trans          &kp LGUI                                  &mt (RGUI) LS(N1)  &kp LBKT            &kp LS(N3)         &kp LS(LBKT)  &mt (RSHFT) LS(EQUAL)
+&trans         &trans   &trans          &mmv MOVE_UP    &kp LG(LEFT)     &kp LG(RIGHT)    &iOS04  &iOS05             &trans              &trans             &trans        &trans
+                        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                           &trans             &trans              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN>;
@@ -699,11 +702,11 @@
 
         layer_7 {
             bindings = <
-&kp Q        &kp W   &kp E           &kp R           &kp T                                   &kp Y        &kp U       &kp I       &kp O   &kp P
-&kp A        &kp S   &mt LALT D      &mt LGUI F      &kp G                                   &kp H        &mt RGUI J  &mt RALT K  &kp L   &TD01
-&mt LSHFT Z  &kp X   &kp C           &kp V           &mt LCTRL B                             &mt RCTRL N  &kp M       &TD02       &TD03   &TD04
-&trans       &trans  &trans          &msc SCRL_UP    &kp RET          &kp SPACE    &kp BSPC  &kp TAB      &trans      &trans      &trans  &trans
-                     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                         &trans       &trans      &trans
+&kp Q        &kp W   &kp E           &kp R           &kp T                                &kp Y        &kp U       &kp I       &kp O   &kp P
+&kp A        &kp S   &mt LALT D      &mt LGUI F      &kp G                                &kp H        &mt RGUI J  &mt RALT K  &kp L   &TD01
+&mt LSHFT Z  &kp X   &kp C           &kp V           &mt LCTRL B                          &mt RCTRL N  &kp M       &TD02       &TD03   &TD04
+&trans       &trans  &trans          &msc SCRL_UP    &kp LG(LC(Q))    &iOS00    &kp BSPC  &kp TAB      &trans      &trans      &trans  &trans
+                     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                      &trans       &trans      &trans
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
