@@ -587,7 +587,7 @@
 &trans     &trans     &trans    &trans    &trans                              &kp N7        &kp N8       &kp N9       &kp KP_ASTERISK    &kp KP_SLASH
 &kp LANG1  &kp LANG2  &kp LALT  &kp LGUI  &trans                              &kp N4        &mt RGUI N5  &mt RALT N6  &mt LANG1 KP_PLUS  &mt LANG2 KP_MINUS
 &kp LSHFT  &trans     &trans    &trans    &kp LCTRL                           &mt RCTRL N1  &kp N2       &kp N3       &kp TAB            &kp RSHFT
-&trans     &trans     &trans    &kp UP    &lt 0 RET  &lt 0 SPACE    &kp BSPC  &kp N0        &trans       &trans       &trans             &trans
+&trans     &trans     &trans    &kp UP    &lt 2 RET  &lt 3 SPACE    &kp BSPC  &kp N0        &trans       &trans       &trans             &trans
                       &kp LEFT  &kp DOWN  &kp RIGHT                           &trans        &trans       &trans
             >;
 
@@ -620,10 +620,10 @@
 
         layer_4 {
             bindings = <
-&lt 0 Q      &lt 0 W      &lt 0 E     &kp R       &kp T                                        &kp Y        &kp U       &kp I       &kp O        &kp P
+&lt 6 Q      &lt 7 W      &lt 8 E     &kp R       &kp T                                        &kp Y        &kp U       &kp I       &kp O        &kp P
 &mt LANG1 A  &mt LANG2 S  &mt LALT D  &mt LGUI F  &kp G                                        &kp H        &mt RGUI J  &mt RALT K  &mt LANG1 L  &TD01
-&mt LSHFT Z  &kp X        &kp C       &kp V       &mt LCTRL B                                  &mt RCTRL N  &kp M       &TD02       &TD03        &TD04
-&trans       &trans       &trans      &kp UP      &lt 0 RET    &lt 0 SPACE    &lt 0 BACKSPACE  &kp TAB      &trans      &trans      &trans       &trans
+&mt LSHFT Z  &lt 6 X      &kp C       &kp V       &mt LCTRL B                                  &mt RCTRL N  &kp M       &TD02       &TD03        &TD04
+&trans       &trans       &trans      &kp UP      &lt 6 RET    &lt 5 SPACE    &lt 5 BACKSPACE  &kp TAB      &trans      &trans      &trans       &trans
                           &kp LEFT    &kp DOWN    &kp RIGHT                                    &trans       &trans      &trans
             >;
 
@@ -635,7 +635,7 @@
 &trans     &trans     &trans    &trans    &trans                              &kp N7        &kp N8       &kp N9       &kp KP_ASTERISK    &kp KP_SLASH
 &kp LANG1  &kp LANG2  &kp LALT  &kp LGUI  &trans                              &kp N4        &mt RGUI N5  &mt RALT N6  &mt LANG1 KP_PLUS  &mt LANG2 KP_MINUS
 &kp LSHFT  &trans     &trans    &trans    &kp LCTRL                           &mt RCTRL N1  &kp N2       &kp N3       &kp TAB            &kp RSHFT
-&trans     &trans     &trans    &kp UP    &lt 0 RET  &lt 0 SPACE    &kp BSPC  &kp N0        &trans       &trans       &trans             &trans
+&trans     &trans     &trans    &kp UP    &lt 6 RET  &lt 7 SPACE    &kp BSPC  &kp N0        &trans       &trans       &trans             &trans
                       &kp LEFT  &kp DOWN  &kp RIGHT                           &trans        &trans       &trans
             >;
 
