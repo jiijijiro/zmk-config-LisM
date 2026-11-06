@@ -119,7 +119,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD05";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&HT01 2 0>, <&kp LC(LS(F1))>;
+
             tapping-term-ms = <300>;
         };
 
@@ -151,7 +152,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD09";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mc05>, <&mc06>;
+
             tapping-term-ms = <300>;
         };
 
@@ -159,7 +161,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD10";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt (LANG1) LC(A)>, <&mc09>;
+
             tapping-term-ms = <300>;
         };
 
@@ -167,7 +170,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD11";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt (LANG2) LC(S)>, <&mc10>;
+
             tapping-term-ms = <300>;
         };
 
@@ -175,7 +179,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD12";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt (LALT) LC(D)>, <&mc11>;
+
             tapping-term-ms = <300>;
         };
 
@@ -183,7 +188,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD13";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt (LGUI) LC(PG_UP)>, <&mc07>;
+
             tapping-term-ms = <300>;
         };
 
@@ -199,7 +205,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD15";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mt (LSHFT) LC(Z)>, <&kp LC(N1)>;
+
             tapping-term-ms = <300>;
         };
 
@@ -223,7 +230,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD18";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(V)>, <&mc08>;
+
             tapping-term-ms = <300>;
         };
 
@@ -335,6 +343,36 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HT00";
             bindings = <&kp>, <&us_minus>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
+
+        HT01: HT01 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT01";
+            bindings = <&mo>, <&mc01>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
+
+        HT02: HT02 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT02";
+            bindings = <&mo>, <&mc02>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
+
+        HT03: HT03 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT03";
+            bindings = <&mo>, <&mc03>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -584,11 +622,11 @@
 
         layer_1 {
             bindings = <
-&trans     &trans     &trans    &trans    &trans                              &kp N7        &kp N8       &kp N9       &kp KP_ASTERISK    &kp KP_SLASH
-&kp LANG1  &kp LANG2  &kp LALT  &kp LGUI  &trans                              &kp N4        &mt RGUI N5  &mt RALT N6  &mt LANG1 KP_PLUS  &mt LANG2 KP_MINUS
-&kp LSHFT  &trans     &trans    &trans    &kp LCTRL                           &mt RCTRL N1  &kp N2       &kp N3       &kp TAB            &kp RSHFT
-&trans     &trans     &trans    &kp UP    &lt 2 RET  &lt 3 SPACE    &kp BSPC  &kp N0        &trans       &trans       &trans             &trans
-                      &kp LEFT  &kp DOWN  &kp RIGHT                           &trans        &trans       &trans
+&TD05   &HT02 3 0      &HT03 8 0  &mc04     &TD09                                       &kp N7        &kp N8       &kp N9       &kp KP_ASTERISK    &kp KP_SLASH
+&TD10   &TD11          &TD12      &TD13     &kp LC(PG_DN)                               &kp N4        &mt RGUI N5  &mt RALT N6  &mt LANG1 KP_PLUS  &mt LANG2 KP_MINUS
+&TD15   &lt (2) LC(X)  &kp LC(C)  &TD18     &mt (LCTRL) LC(B)                           &mt RCTRL N1  &kp N2       &kp N3       &kp TAB            &kp RSHFT
+&trans  &trans         &trans     &kp UP    &lt 2 RET          &lt 3 SPACE    &kp BSPC  &kp N0        &trans       &trans       &trans             &trans
+                       &kp LEFT   &kp DOWN  &kp RIGHT                                   &trans        &trans       &trans
             >;
 
             sensor-bindings = <&encoder_kp LEFT RIGHT>;
