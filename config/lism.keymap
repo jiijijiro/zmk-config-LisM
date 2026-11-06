@@ -247,7 +247,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD20";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&none>, <&kp LC(LA(TAB))>;
+
             tapping-term-ms = <300>;
         };
 
@@ -255,7 +256,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD21";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp F2>, <&kp LG(T)>;
+
             tapping-term-ms = <300>;
         };
 
@@ -263,7 +265,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD22";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp F3>, <&kp LG(A)>;
+
             tapping-term-ms = <300>;
         };
 
@@ -287,7 +290,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD25";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(LG(LEFT))>, <&kp LC(LG(LA(LEFT)))>;
+
             tapping-term-ms = <300>;
         };
 
@@ -295,7 +299,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD26";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(LG(RIGHT))>, <&kp LC(LG(LA(RIGHT)))>;
+
             tapping-term-ms = <300>;
         };
 
@@ -634,11 +639,11 @@
 
         layer_2 {
             bindings = <
-&kp F1         &kp F2   &kp F3          &kp F4          &kp F5                             &kp LS(N6)          &kp LS(N8)         &kp LS(N9)         &kp LS(RBKT)  &kp LS(NON_US_HASH)
-&kp F6         &kp F7   &mt LALT F8     &mt LGUI F9     &kp F10                            &kp LS(N4)          &mt (RGUI) LS(N5)  &mt (RALT) LS(N6)  &kp RBKT      &kp NON_US_HASH
-&mt LSHFT F11  &kp F12  &trans          &trans          &kp LCTRL                          &mt (RCTRL) LS(N1)  &kp LBKT           &kp LS(N3)         &kp LS(LBKT)  &mt (RSHFT) LS(EQUAL)
-&trans         &trans   &trans          &mmv MOVE_UP    &trans           &trans    &trans  &trans              &trans             &trans             &trans        &trans
-                        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                    &trans              &trans             &trans
+&TD20          &TD21    &TD22            &kp F4          &kp F5                                      &kp LS(N6)          &kp LS(N8)         &kp LS(N9)         &kp LS(RBKT)  &kp LS(NON_US_HASH)
+&kp F6         &kp F7   &mt LALT F8      &mt LGUI F9     &kp F10                                     &kp LS(N4)          &mt (RGUI) LS(N5)  &mt (RALT) LS(N6)  &kp RBKT      &kp NON_US_HASH
+&mt LSHFT F11  &kp F12  &kp PRINTSCREEN  &trans          &kp LCTRL                                   &mt (RCTRL) LS(N1)  &kp LBKT           &kp LS(N3)         &kp LS(LBKT)  &mt (RSHFT) LS(EQUAL)
+&trans         &trans   &trans           &mmv MOVE_UP    &TD25            &TD26    &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))   &trans             &trans             &trans        &trans
+                        &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT                             &trans              &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN>;
