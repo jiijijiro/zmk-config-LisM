@@ -613,6 +613,40 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo00 {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        combo01 {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+        };
+
+        combo02 {
+            bindings = <&kp CAPS>;
+            key-positions = <20 21>;
+        };
+
+        combo03 {
+            bindings = <&kp HOME>;
+            key-positions = <3 4>;
+        };
+
+        combo04 {
+            bindings = <&kp END>;
+            key-positions = <13 14>;
+        };
+
+        combo05 {
+            bindings = <&mo 8>;
+            key-positions = <34 35>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -714,11 +748,11 @@
 
         layer_8 {
             bindings = <
-&BT00         &BT01   &BT02         &BT03         &BT04                                       &trans          &trans  &trans  &trans  &trans
-&out OUT_USB  &trans  &trans        &trans        &trans                                      &trans          &trans  &trans  &trans  &trans
-&bootloader   &trans  &trans        &trans        &trans                                      &studio_unlock  &trans  &trans  &trans  &bootloader
-&trans        &trans  &trans        &kp C_VOL_UP  &kp C_VOL_DN  &kp C_VOL_UP    &kp C_BRI_DN  &kp C_BRI_UP    &trans  &trans  &trans  &trans
-                      &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                                &trans          &trans  &trans
+&BT00         &BT01   &BT02         &BT03         &BT04                                       &trans        &trans    &trans    &trans  &studio_unlock
+&out OUT_USB  &trans  &kp LALT      &kp LGUI      &bootloader                                 &bootloader   &kp RGUI  &kp RALT  &trans  &trans
+&kp LSHFT     &trans  &trans        &trans        &kp LCTRL                                   &kp RCTRL     &trans    &trans    &trans  &kp RSHFT
+&trans        &trans  &trans        &kp C_VOL_UP  &kp C_VOL_DN  &kp C_VOL_UP    &kp C_BRI_DN  &kp C_BRI_UP  &trans    &trans    &trans  &trans
+                      &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP                                &trans        &trans    &trans
             >;
 
             sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
